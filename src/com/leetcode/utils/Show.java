@@ -1,7 +1,5 @@
 package com.leetcode.utils;
 
-import com.leetcode.extend.ListNode;
-
 /**
  * 用于打印结果
  * Create by ranzd on 2017/10/22

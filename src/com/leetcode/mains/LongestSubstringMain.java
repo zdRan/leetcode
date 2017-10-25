@@ -11,7 +11,7 @@ import com.leetcode.utils.Show;
 public class LongestSubstringMain {
     public static void main(String[] args){
         LongestSubstring longestSubstring = new LongestSubstring();
-        int num = longestSubstring.lengthOfLongestSubstrin("abca12345");
+        int num = longestSubstring.lengthOfLongestSubstring("zsabca12345");
         Show.showString("num = "+num);
     }
 }

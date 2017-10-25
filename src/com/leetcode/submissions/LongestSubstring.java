@@ -30,7 +30,7 @@ public class LongestSubstring {
         }
         return max;
     }
-    public int lengthOfLongestSubstrin(String s) {
+    public int other(String s) {
         int i = 0, j = 0, max = 0;
         Set<Character> set = new HashSet<>();
 
@@ -42,7 +42,6 @@ public class LongestSubstring {
                 set.remove(s.charAt(i++));
             }
         }
-
         return max;
     }
 }
