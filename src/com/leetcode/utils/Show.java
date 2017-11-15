@@ -22,5 +22,9 @@ public class Show {
         }
         showString("show arr end");
     }
+    public static void showDouble(double num){
+        showString("double = "+ num);
+    }
+
 
 }
