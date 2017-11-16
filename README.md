@@ -9,4 +9,4 @@
 1. [1. Two sum](./src/com/leetcode/problems/TwoSum.md)
 2. [2. Add Two Numbers](./src/com/leetcode/problems/AddTwoNumbers.md)
 3. [3. Longest Substring Without Repeating Characters](./src/com/leetcode/problems/LongestSubstring.md)
-3. [4. 4. Median of Two Sorted Arrays](./src/com/leetcode/problems/MedianofTwoSortedArrays.md)
+3. [4. Median of Two Sorted Arrays](./src/com/leetcode/problems/MedianofTwoSortedArrays.md)
