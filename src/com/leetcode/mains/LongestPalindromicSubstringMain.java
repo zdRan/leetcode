@@ -12,7 +12,7 @@ public class LongestPalindromicSubstringMain {
     public static void main(String[] args){
 
         LongestPalindromicSubstring palindromicSubstring = new LongestPalindromicSubstring();
-        String s = palindromicSubstring.longestPalindrome("babad");
+        String s = palindromicSubstring.longestPalindrome("caaaaba");
         Show.showString(s);
 
     }

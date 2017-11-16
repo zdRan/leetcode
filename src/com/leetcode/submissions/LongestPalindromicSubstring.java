@@ -31,7 +31,7 @@ public class LongestPalindromicSubstring {
                 RL[pos + k] = java.lang.Math.min(RL[pos - k], RL[pos] - k);
             }
             //这里计算的是 RL[pos + k] 的值，当进入下次循环是 pos = pos +k
-            rad = java.lang.Math.max(RL[pos] - k,0);
+            rad = java.lang.Math.max(RL[pos - k],0);
         }
         int max = 0;
         int center = 0;
