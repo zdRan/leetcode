@@ -11,4 +11,6 @@
 3. [Longest Substring Without Repeating Characters](./src/com/leetcode/problems/LongestSubstring.md)
 4. [Median of Two Sorted Arrays](./src/com/leetcode/problems/MedianofTwoSortedArrays.md)
 5. [Longest palindromic substring](./src/com/leetcode/problems/LongestPalindromicSubstring.md)
+6. [ZigZag Conversion](./src/com/leetcode/problems/ZigZagConversion.md)
+6. [Reverse Integer](./src/com/leetcode/problems/ReverseInteger.md)
 
