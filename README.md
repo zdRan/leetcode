@@ -7,11 +7,13 @@
 5. utils：工具类，一些测试用到的工具类，例如打印数组等。
 6. test：用于测试一些API。
 ## 题目目录
-1. [Two sum](./src/com/leetcode/problems/TwoSum.md)
-2. [Add Two Numbers](./src/com/leetcode/problems/AddTwoNumbers.md)
-3. [Longest Substring Without Repeating Characters](./src/com/leetcode/problems/LongestSubstring.md)
-4. [Median of Two Sorted Arrays](./src/com/leetcode/problems/MedianofTwoSortedArrays.md)
-5. [Longest palindromic substring](./src/com/leetcode/problems/LongestPalindromicSubstring.md)
-6. [ZigZag Conversion](./src/com/leetcode/problems/ZigZagConversion.md)
-6. [Reverse Integer](./src/com/leetcode/problems/ReverseInteger.md)
+| # | 思路 | 代码 | 难度 |
+|---| ----- | -------- | ---------- |
+|7  |[Reverse Integer](./src/com/leetcode/problems/ReverseInteger.md)|[Java](./src/com/leetcode/submissions/ReverseInteger.java)|Easy|
+|6  |[ZigZag Conversion](./src/com/leetcode/problems/ZigZagConversion.md)|[Java](./src/com/leetcode/submissions/ZigZagConversion.java)|Medium|
+|5  |[Longest palindromic substring](./src/com/leetcode/problems/LongestPalindromicSubstring.md)|[Java](./src/com/leetcode/submissions/LongestPalindromicSubstring.java)|Medium|
+|4  |[Median of Two Sorted Arrays](./src/com/leetcode/problems/MedianofTwoSortedArrays.md)|[Java](./src/com/leetcode/submissions/MedianTwoArrays.java)|Hard|
+|3  |[Longest Substring Without Repeating Characters](./src/com/leetcode/problems/LongestSubstring.md)|[Java](./src/com/leetcode/submissions/LongestSubstring.java)|Medium|
+|2  |[Add Two Numbers](./src/com/leetcode/problems/AddTwoNumbers.md)|[Java](./src/com/leetcode/submissions/AddTwoNumbers.java)|Medium|
+|1  |[Two sum](./src/com/leetcode/problems/TwoSum.md)|[Java](./src/com/leetcode/submissions/TwoSum.java)|Easy|
 
