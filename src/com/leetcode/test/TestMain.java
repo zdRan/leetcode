@@ -1,7 +1,7 @@
-package com.leetcode.utils;
+package com.leetcode.test;
 
 /**
- * 用于实验一些API
+ * 用于测试一些API
  * <p>
  * Create by ranzd on 2017/10/23
  *
