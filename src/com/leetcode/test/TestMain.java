@@ -1,5 +1,7 @@
 package com.leetcode.test;
 
+import com.leetcode.utils.Show;
+
 /**
  * 用于测试一些API
  * <p>
@@ -11,4 +13,5 @@ public class TestMain {
     public static void main(String[] args) {
 
     }
+
 }
