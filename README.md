@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路 | 代码 | 难度 |
 |---| ----- | -------- | ---------- |
+|9  |[Palindrome Number](./src/com/leetcode/problems/PalindromeNumber.md)|[Java](./src/com/leetcode/submissions/PalindromeNumber.java)|Easy|
 |8  |[String to Integer (atoi)](./src/com/leetcode/problems/StringToInteger.md)|[Java](./src/com/leetcode/submissions/StringToInteger.java)|Medium|
 |7  |[Reverse Integer](./src/com/leetcode/problems/ReverseInteger.md)|[Java](./src/com/leetcode/submissions/ReverseInteger.java)|Easy|
 |6  |[ZigZag Conversion](./src/com/leetcode/problems/ZigZagConversion.md)|[Java](./src/com/leetcode/submissions/ZigZagConversion.java)|Medium|
