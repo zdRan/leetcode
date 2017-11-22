@@ -11,15 +11,8 @@ public class RegularExpressionMatching {
         if (!p.contains(".")&& !p.contains("*")){
             return s.equals(p);
         }
-        //s == ""
-        if (s.equals("")){
-            if ( p.length() == 2 && p.charAt(1) == '*'){
-                return true;
-            }else {
-                return false;
-            }
-        }
-        return recursion(s,p,s.length()-1,p.length()-1);
+
+        return recursion2(s,p,s.length()-1,p.length()-1);
     }
 
     private boolean recursion(String s,String p,int sIndex,int pIndex){
@@ -32,7 +25,7 @@ public class RegularExpressionMatching {
         }
         if ((pIndex>=0&& sIndex<0)){
             //解决 a* 匹配完所有的s
-            if (p.charAt(1) == '*')
+            if (p.charAt(1) == '*' && pIndex == 1)
                 return true;
             return false;
         }
@@ -59,6 +52,33 @@ public class RegularExpressionMatching {
             //匹配失败，再次从头开始匹配
             pIndex = p.length()-1;
             return recursion(s,p,sIndex-1,pIndex);
+        }
+    }
+
+    private boolean recursion2(String s,String p,int sIndex,int pIndex){
+        if (pIndex<0){
+            return sIndex<0;
+        }
+        if (sIndex<0){
+            if (pIndex - 1 >= 0 && p.charAt(pIndex) == '*'){
+                return recursion2(s,p,sIndex,pIndex -2);
+            }
+            return false;
+        }
+        if (p.charAt(pIndex)!='*'){
+            if (p.charAt(pIndex) == s.charAt(sIndex) ||(p.charAt(pIndex) == '.'&& sIndex>=0)){
+                return recursion2(s,p,sIndex-1,pIndex -1);
+            }else {
+                return false;
+            }
+        }else {
+            while (sIndex>=0 && ((p.charAt(pIndex-1) == '.') || p.charAt(pIndex-1) == s.charAt(sIndex))){
+                if (recursion2(s,p,sIndex,pIndex-1)){
+                    return true;
+                }
+                sIndex--;
+            }
+            return recursion2(s,p,sIndex,pIndex-2);
         }
     }
 }
