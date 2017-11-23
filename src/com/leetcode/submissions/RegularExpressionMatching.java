@@ -7,15 +7,38 @@ package com.leetcode.submissions;
  */
 public class RegularExpressionMatching {
     public boolean isMatch(String s, String p) {
-        //不存在 . * 的情况
-        if (!p.contains(".")&& !p.contains("*")){
-            return s.equals(p);
-        }
-
-        return recursion2(s,p,s.length()-1,p.length()-1);
+        return recursion(s,p,0,0);
     }
-
     private boolean recursion(String s,String p,int sIndex,int pIndex){
+        if (pIndex >= p.length()){
+            return sIndex >= s.length();
+        }
+        if (sIndex >= s.length()){
+
+            while (pIndex+1<p.length()){
+                if (p.charAt(pIndex+1) != '*'){
+                    return false;
+                }else {
+                    pIndex += 2;
+                }
+            }
+            return true;
+        }
+        if ((pIndex+1 <p.length())&&p.charAt(pIndex+1)!='*'){
+            if(s.charAt(sIndex) == p.charAt(pIndex)||(sIndex <s.length()&&p.charAt(pIndex) == '.')){
+                return recursion(s,p,sIndex+1,pIndex+1);
+            }else {
+                return recursion(s,p,sIndex+1,pIndex);
+            }
+        }else {
+            if (s.charAt(sIndex) == p.charAt(pIndex)||(sIndex <s.length()&&p.charAt(pIndex) == '.')){
+                return recursion(s,p,sIndex+1,pIndex);
+            }else {
+                return recursion(s,p,sIndex,pIndex+2);
+            }
+        }
+    }
+    private boolean recursion1(String s,String p,int sIndex,int pIndex){
         //递归结束条件
         if (pIndex<0 && sIndex < 0){
             return true;
@@ -31,27 +54,27 @@ public class RegularExpressionMatching {
         }
         //匹配 "."
         if (p.charAt(pIndex) == '.'){
-            return recursion(s,p,sIndex-1,pIndex-1);
+            return recursion1(s,p,sIndex-1,pIndex-1);
         }
         //匹配 "*"
         if (p.charAt(pIndex) == '*'){
             //匹配成功
             if (p.charAt(pIndex-1) == '.'){
-                return recursion(s,p,sIndex-1,pIndex);
+                return recursion1(s,p,sIndex-1,pIndex);
             }
             if (s.charAt(sIndex) == p.charAt(pIndex-1)){
-                return recursion(s,p,sIndex-1,pIndex);
+                return recursion1(s,p,sIndex-1,pIndex);
             }else {
-                return recursion(s,p,sIndex,pIndex-2);
+                return recursion1(s,p,sIndex,pIndex-2);
             }
         }
         //匹配其他字符
         if (s.charAt(sIndex) == p.charAt(pIndex)){
-            return recursion(s,p,sIndex-1,pIndex-1);
+            return recursion1(s,p,sIndex-1,pIndex-1);
         }else {
             //匹配失败，再次从头开始匹配
             pIndex = p.length()-1;
-            return recursion(s,p,sIndex-1,pIndex);
+            return recursion1(s,p,sIndex-1,pIndex);
         }
     }
 
