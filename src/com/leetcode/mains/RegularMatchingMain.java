@@ -15,5 +15,6 @@ public class RegularMatchingMain {
         Show.showString("2 : "+ regularExpressionMatching.isMatch("a","ab*a"));
         Show.showString("3 : "+ regularExpressionMatching.isMatch("a",".*..a*"));
         Show.showString("4 : "+ regularExpressionMatching.isMatch("axys","axy.*s"));
+        Show.showString("5 : "+ regularExpressionMatching.isMatch("abbb","bbb*"));
     }
 }

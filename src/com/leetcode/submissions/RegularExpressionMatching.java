@@ -14,28 +14,46 @@ public class RegularExpressionMatching {
             return sIndex >= s.length();
         }
         if (sIndex >= s.length()){
-
-            while (pIndex+1<p.length()){
-                if (p.charAt(pIndex+1) != '*'){
-                    return false;
-                }else {
-                    pIndex += 2;
-                }
+            if(pIndex+1<p.length() &&p.charAt(pIndex+1) == '*'){
+                return recursion(s,p,sIndex,pIndex+2);
+            }else {
+                return false;
             }
-            return true;
+//            while (pIndex+1<p.length()){
+//                if (p.charAt(pIndex+1) != '*'){
+//                    return false;
+//                }else {
+//                    pIndex += 2;
+//                }
+//            }
+//            return true;
+        }
+        if (pIndex+1 >= p.length()){
+            if(p.charAt(pIndex) == s.charAt(sIndex)|| p.charAt(pIndex) == '.'){
+                return sIndex+1 == s.length();
+            }else {
+                return false;
+            }
         }
         if ((pIndex+1 <p.length())&&p.charAt(pIndex+1)!='*'){
             if(s.charAt(sIndex) == p.charAt(pIndex)||(sIndex <s.length()&&p.charAt(pIndex) == '.')){
                 return recursion(s,p,sIndex+1,pIndex+1);
             }else {
-                return recursion(s,p,sIndex+1,pIndex);
+                return false;
             }
         }else {
-            if (s.charAt(sIndex) == p.charAt(pIndex)||(sIndex <s.length()&&p.charAt(pIndex) == '.')){
-                return recursion(s,p,sIndex+1,pIndex);
-            }else {
-                return recursion(s,p,sIndex,pIndex+2);
+            while ((sIndex <s.length()&&s.charAt(sIndex) == p.charAt(pIndex))||(sIndex <s.length()&&p.charAt(pIndex) == '.')){
+                if (recursion(s,p,sIndex,pIndex+2)){
+                    return true;
+                }
+                sIndex++;
             }
+            return recursion(s,p,sIndex,pIndex+2);
+//            if (s.charAt(sIndex) == p.charAt(pIndex)||(sIndex <s.length()&&p.charAt(pIndex) == '.')){
+//                return recursion(s,p,sIndex+1,pIndex);
+//            }else {
+//                return recursion(s,p,sIndex,pIndex+2);
+//            }
         }
     }
     private boolean recursion1(String s,String p,int sIndex,int pIndex){
