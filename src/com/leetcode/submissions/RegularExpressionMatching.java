@@ -13,21 +13,15 @@ public class RegularExpressionMatching {
         if (pIndex >= p.length()){
             return sIndex >= s.length();
         }
+        //解决 ab ，a*b*c*d
         if (sIndex >= s.length()){
             if(pIndex+1<p.length() &&p.charAt(pIndex+1) == '*'){
                 return recursion(s,p,sIndex,pIndex+2);
             }else {
                 return false;
             }
-//            while (pIndex+1<p.length()){
-//                if (p.charAt(pIndex+1) != '*'){
-//                    return false;
-//                }else {
-//                    pIndex += 2;
-//                }
-//            }
-//            return true;
         }
+        //解决 aa 匹配 a
         if (pIndex+1 >= p.length()){
             if(p.charAt(pIndex) == s.charAt(sIndex)|| p.charAt(pIndex) == '.'){
                 return sIndex+1 == s.length();
@@ -49,11 +43,7 @@ public class RegularExpressionMatching {
                 sIndex++;
             }
             return recursion(s,p,sIndex,pIndex+2);
-//            if (s.charAt(sIndex) == p.charAt(pIndex)||(sIndex <s.length()&&p.charAt(pIndex) == '.')){
-//                return recursion(s,p,sIndex+1,pIndex);
-//            }else {
-//                return recursion(s,p,sIndex,pIndex+2);
-//            }
+
         }
     }
     private boolean recursion1(String s,String p,int sIndex,int pIndex){
