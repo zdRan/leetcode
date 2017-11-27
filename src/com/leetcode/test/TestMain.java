@@ -12,6 +12,11 @@ import com.leetcode.utils.Show;
 public class TestMain {
     public static void main(String[] args) {
         Show.showString("// "+ (1/10));
+
+        Show.showString("index = "+"qqqddd".startsWith("qqq"));
+
+        Show.showString("index = "+"qqqddde".substring("qqq".length()));
+
     }
 
 }
