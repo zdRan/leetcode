@@ -13,7 +13,7 @@ public class RegularExpressionMatching {
         if (pIndex >= p.length()){
             return sIndex >= s.length();
         }
-        //解决 ab ，a*b*c*d
+        //解决 s = ab ，p = a*b*c*d
         if (sIndex >= s.length()){
             if(pIndex+1<p.length() &&p.charAt(pIndex+1) == '*'){
                 return recursion(s,p,sIndex,pIndex+2);
@@ -21,7 +21,7 @@ public class RegularExpressionMatching {
                 return false;
             }
         }
-        //解决 aa 匹配 a
+        //解决 s = aa,p =  a
         if (pIndex+1 >= p.length()){
             if(p.charAt(pIndex) == s.charAt(sIndex)|| p.charAt(pIndex) == '.'){
                 return sIndex+1 == s.length();
