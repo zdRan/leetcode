@@ -11,6 +11,7 @@
 |---| ----- | -------- | ---------- |
 |12  |[Integer to Roman](./src/com/leetcode/problems/IntegertoRoman.md)|[Java](./src/com/leetcode/submissions/IntegertoRoman.java)|Medium|
 |11  |[Container With Most Water](./src/com/leetcode/problems/ContainerWithMostWater.md)|[Java](./src/com/leetcode/submissions/ContainerWithMostWater.java)|Medium|
+|10  |[Regular Expression Matching](./src/com/leetcode/problems/RegularExpressionMatching.md)|[Java](./src/com/leetcode/submissions/RegularExpressionMatching.java)|Hard|
 |9  |[Palindrome Number](./src/com/leetcode/problems/PalindromeNumber.md)|[Java](./src/com/leetcode/submissions/PalindromeNumber.java)|Easy|
 |8  |[String to Integer (atoi)](./src/com/leetcode/problems/StringToInteger.md)|[Java](./src/com/leetcode/submissions/StringToInteger.java)|Medium|
 |7  |[Reverse Integer](./src/com/leetcode/problems/ReverseInteger.md)|[Java](./src/com/leetcode/submissions/ReverseInteger.java)|Easy|
