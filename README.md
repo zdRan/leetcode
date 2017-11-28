@@ -9,6 +9,8 @@
 ## 题目目录
 | # | 思路 | 代码 | 难度 |
 |---| ----- | -------- | ---------- |
+|14  |[Longest Common Prefix](./src/com/leetcode/problems/LongestCommonPrefix.md)|[Java](./src/com/leetcode/submissions/LongestCommonPrefix.java)|Easy|
+|13  |[Roman to Integer](./src/com/leetcode/problems/RomanToInteger.md)|[Java](./src/com/leetcode/submissions/RomanToInteger.java)|Easy|
 |12  |[Integer to Roman](./src/com/leetcode/problems/IntegertoRoman.md)|[Java](./src/com/leetcode/submissions/IntegertoRoman.java)|Medium|
 |11  |[Container With Most Water](./src/com/leetcode/problems/ContainerWithMostWater.md)|[Java](./src/com/leetcode/submissions/ContainerWithMostWater.java)|Medium|
 |10  |[Regular Expression Matching](./src/com/leetcode/problems/RegularExpressionMatching.md)|[Java](./src/com/leetcode/submissions/RegularExpressionMatching.java)|Hard|
