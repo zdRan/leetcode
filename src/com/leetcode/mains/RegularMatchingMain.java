@@ -17,5 +17,12 @@ public class RegularMatchingMain {
         Show.showString("4 : "+ regularExpressionMatching.isMatch("axys","axy.*s"));
         Show.showString("5 : "+ regularExpressionMatching.isMatch("abbb","bbb*"));
         Show.showString("5 : "+ regularExpressionMatching.isMatch("aa","a"));
+
+        Show.showString("1 : "+ regularExpressionMatching.isMatch2("ab","c*a*b"));
+        Show.showString("2 : "+ regularExpressionMatching.isMatch2("a","ab*a"));
+        Show.showString("3 : "+ regularExpressionMatching.isMatch2("a",".*..a*"));
+        Show.showString("4 : "+ regularExpressionMatching.isMatch2("axys","axy.*s"));
+        Show.showString("5 : "+ regularExpressionMatching.isMatch2("abbb","bbb*"));
+        Show.showString("5 : "+ regularExpressionMatching.isMatch2("aa","a"));
     }
 }
