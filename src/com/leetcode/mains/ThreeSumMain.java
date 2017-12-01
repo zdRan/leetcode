@@ -16,9 +16,13 @@ public class ThreeSumMain {
         List<List<Integer>> result = threeSum.threeSum(new int[]{-1,0,1,2,-1,-4});
 
         for (List<Integer> nums:result) {
-            for (Integer num:nums) {
-                Show.showString(" "+num);
-            }
+            Show.showString("result = "+nums);
+        }
+
+        List<List<Integer>> result2 = threeSum.threeSum(new int[]{0,0,0,0,0});
+
+        for (List<Integer> nums:result2) {
+            Show.showString("result = "+nums);
         }
     }
 }
