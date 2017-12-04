@@ -16,7 +16,8 @@ public class TestMain {
         Show.showString("index = "+"qqqddd".startsWith("qqq"));
 
         Show.showString("index = "+"qqqddde".substring("qqq".length()));
-
+        char ch = 65;
+        System.out.println(ch);
     }
 
 }
