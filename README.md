@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路 | 代码 | 难度 |
 |---| ----- | -------- | ---------- |
+|18 |[Remove Nth Node From End of List](./src/com/leetcode/problems/RemoveNthNodeFromEndofList.md)|[Java](./src/com/leetcode/submissions/RemoveNodeFromList.java)|Medium|
 |18 |[4Sum](./src/com/leetcode/problems/FourSum.md)|[Java](./src/com/leetcode/submissions/FourSum.java)|Medium|
 |17 |[Letter Combinations of a Phone Number](./src/com/leetcode/problems/LetterCombinations.md)|[Java](./src/com/leetcode/submissions/LetterCombinations.java)|Medium|
 |16 |[3Sum Closest](./src/com/leetcode/problems/ThreeSumClosest.md)|[Java](./src/com/leetcode/submissions/ThreeSumClosest.java)|Medium|
