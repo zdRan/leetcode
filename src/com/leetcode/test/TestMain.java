@@ -23,47 +23,38 @@ public class TestMain {
         Show.showString("index = "+"qqqddde".substring("qqq".length()));
         char ch = '3';
         ch = (char) (ch -'1');
-        System.out.println(ch);
+        //System.out.println(ch);
 
-        Show.showString("monotoneIncreasingDigits = "+monotoneIncreasingDigits(332));
+        Show.showString("monotoneIncreasingDigits = "+monotoneIncreasingDigits(1122333221));
     }
 
     public static int monotoneIncreasingDigits(int N) {
-
-        String strNum = String.valueOf(N);
-        StringBuilder sb = new StringBuilder();
-        if (strNum.length() == 1){
-            return N;
-        }
-        int index = 1;
-        sb.append(strNum.charAt(0));
-        for (; index < strNum.length(); index++) {
-            if (strNum.charAt(index)>=strNum.charAt(index-1)){
-                sb.append(strNum.charAt(index-1));
-            }else {
-                sb.append("9");
-                int temp = index;
-                temp--;
-                char c = sb.charAt(temp);
-                int num = Integer.parseInt(String.valueOf(c));
-                sb.setCharAt(temp,((num-1)+"").charAt(0));
-                while (temp>0){
-
-                    if (sb.charAt(temp)<sb.charAt(temp-1)){
-                        sb.setCharAt(temp, '9');
-                        char c1 = sb.charAt(temp);
-                        int num1 = Integer.parseInt(String.valueOf(c1));
-                        sb.setCharAt(temp,((num1-1)+"").charAt(0));
-                    }
-                    temp--;
-                }
-                break;
+        String str = N+"";
+        int[] num = new int[str.length()];
+        int lastIndex = 0;
+        boolean flag = true;
+        for (int i = 0;i<str.length();i++){
+            num[i] = str.charAt(i)-'0';
+            if (flag&&num[i] > num[lastIndex]){
+                 lastIndex = i;
+            }
+            if (num[i] < num[lastIndex]){
+                flag = false;
             }
         }
-        for (; index < strNum.length()-1; index++) {
-            sb.append("9");
+        if (!flag){
+            num[lastIndex] = num[lastIndex]-1;
+            for (int i = lastIndex+1;i<num.length;i++){
+                num[i] = 9;
+            }
+        }else {
+            return N;
         }
-        return Integer.parseInt(sb.toString());
+        int M = 0;
+        for (int i = 0;i<num.length;i++){
+            M = M*10 + num[i];
+        }
+        return M;
     }
 
 }
