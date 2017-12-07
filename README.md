@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路 | 代码 | 难度 |
 |---| ----- | -------- | ---------- |
+|20 |[Merge Two Sorted Lists](./src/com/leetcode/problems/MergeTwoSortedLists.md)|[Java](./src/com/leetcode/submissions/MergeTwoLists.java)|Easy|
 |20 |[Valid Parentheses](./src/com/leetcode/problems/ValidParentheses.md)|[Java](./src/com/leetcode/submissions/ValidParentheses.java)|Easy|
 |19 |[Remove Nth Node From End of List](./src/com/leetcode/problems/RemoveNthNodeFromEndofList.md)|[Java](./src/com/leetcode/submissions/RemoveNodeFromList.java)|Medium|
 |18 |[4Sum](./src/com/leetcode/problems/FourSum.md)|[Java](./src/com/leetcode/submissions/FourSum.java)|Medium|
