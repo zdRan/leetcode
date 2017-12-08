@@ -12,21 +12,24 @@ public class GenerateParentheses {
     private List<String> result = new ArrayList<>();
 
     public List<String> generateParenthesis(int n) {
-        recursive(n,0,0,new StringBuilder());
+        recursive(n,n,new StringBuilder());
         return result;
     }
 
-    private void recursive(int n, int left, int right, StringBuilder ans) {
-        if (ans.length() == n*2) {
+    private void recursive(int left, int right, StringBuilder ans) {
+        if (left == 0 && right == 0){
             result.add(ans.toString());
             return;
         }
-        if (left <= right) {
+        if (left > 0){
             ans.append('(');
-            recursive(n, left + 1, right, ans);
-        } else {
+            recursive(left - 1, right, ans);
+            ans.deleteCharAt(ans.length()-1);
+        }
+        if (left<right){
             ans.append(')');
-            recursive(n, left, right+1, ans);
+            recursive(left, right-1, ans);
+            ans.deleteCharAt(ans.length()-1);
         }
     }
 }
