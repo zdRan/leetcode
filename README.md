@@ -9,7 +9,10 @@
 ## 题目目录
 | # | 思路 | 代码 | 难度 |
 |---| ----- | -------- | ---------- |
-|20 |[Merge Two Sorted Lists](./src/com/leetcode/problems/MergeTwoSortedLists.md)|[Java](./src/com/leetcode/submissions/MergeTwoLists.java)|Easy|
+|23 |[Swap Nodes in Pairs](./src/com/leetcode/problems/SwapNodes.md)|[Java](./src/com/leetcode/submissions/SwapNodes.java)|Easy|
+|23 |[Merge k Sorted Lists](./src/com/leetcode/problems/MergekLists.md)|[Java](./src/com/leetcode/submissions/MergekLists.java)|Easy|
+|22 |[Generate Parentheses](./src/com/leetcode/problems/GenerateParentheses.md)|[Java](./src/com/leetcode/submissions/GenerateParentheses.java)|Easy|
+|21 |[Merge Two Sorted Lists](./src/com/leetcode/problems/MergeTwoSortedLists.md)|[Java](./src/com/leetcode/submissions/MergeTwoLists.java)|Easy|
 |20 |[Valid Parentheses](./src/com/leetcode/problems/ValidParentheses.md)|[Java](./src/com/leetcode/submissions/ValidParentheses.java)|Easy|
 |19 |[Remove Nth Node From End of List](./src/com/leetcode/problems/RemoveNthNodeFromEndofList.md)|[Java](./src/com/leetcode/submissions/RemoveNodeFromList.java)|Medium|
 |18 |[4Sum](./src/com/leetcode/problems/FourSum.md)|[Java](./src/com/leetcode/submissions/FourSum.java)|Medium|
