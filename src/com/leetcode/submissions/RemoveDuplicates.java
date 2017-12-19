@@ -10,15 +10,12 @@ public class RemoveDuplicates {
         if (nums.length == 0){
             return 0;
         }
-        int result = 1;
         int curr = 0;
-        for (int i = 1;i<nums.length;i++){
-            if (nums[i] != nums[curr]){
-               curr = i;
-            }else {
-
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[curr]!=nums[i]){
+                nums[++curr] = nums[i];
             }
         }
-        return result;
+        return curr+1;
     }
 }

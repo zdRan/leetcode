@@ -16,16 +16,10 @@ import java.util.List;
  */
 public class TestMain {
     public static void main(String[] args) {
-        Show.showString("// "+ (1/10));
 
-        Show.showString("index = "+"qqqddd".startsWith("qqq"));
-
-        Show.showString("index = "+"qqqddde".substring("qqq".length()));
-        char ch = '3';
-        ch = (char) (ch -'1');
-        //System.out.println(ch);
-
-        Show.showString("monotoneIncreasingDigits = "+monotoneIncreasingDigits(1122333221));
+        //Show.showString("monotoneIncreasingDigits = "+monotoneIncreasingDigits(1122333221));
+        Show.showString("total = "+minCostClimbingStairs(new int[]{0,1,2,2}));
+        Show.showString("total = "+minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
     }
 
     public static int monotoneIncreasingDigits(int N) {
@@ -55,6 +49,32 @@ public class TestMain {
             M = M*10 + num[i];
         }
         return M;
+    }
+    public static int minCostClimbingStairs(int[] cost) {
+        int total = 0;
+        for (int i = cost.length-1;i>=1;){
+            if (cost[i]>=cost[i-1]){
+                total+=cost[i-1];
+                i-=2;
+            }else {
+                total+=cost[i];
+                i--;
+            }
+        }
+
+        return total;
+    }
+
+    public static void DSF(int[] cost,int index,int total) {
+
+        if (index-12 > cost.length){
+            System.out.println(total);
+        }
+        if (cost[index+1]<cost[index]){
+            DSF(cost,index+2,total+cost[index+1]);
+        }else {
+            DSF(cost,index+1,total+cost[index]);
+        }
     }
 
 }
