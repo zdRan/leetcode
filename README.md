@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路 | 代码 | 难度 |
 |---| ----- | -------- | ---------- |
+|25 |[Reverse Nodes in k-Group](./src/com/leetcode/problems/ReverseNodes.md)|[Java](./src/com/leetcode/submissions/ReverseNodes.java)|Hard|
 |24 |[Swap Nodes in Pairs](./src/com/leetcode/problems/SwapNodes.md)|[Java](./src/com/leetcode/submissions/SwapNodes.java)|Medium|
 |23 |[Merge k Sorted Lists](./src/com/leetcode/problems/MergekLists.md)|[Java](./src/com/leetcode/submissions/MergekLists.java)|Hard|
 |22 |[Generate Parentheses](./src/com/leetcode/problems/GenerateParentheses.md)|[Java](./src/com/leetcode/submissions/GenerateParentheses.java)|Medium|
