@@ -18,8 +18,9 @@ public class TestMain {
     public static void main(String[] args) {
 
         //Show.showString("monotoneIncreasingDigits = "+monotoneIncreasingDigits(1122333221));
-        Show.showString("total = "+minCostClimbingStairs(new int[]{0,1,2,2}));
-        Show.showString("total = "+minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
+        //Show.showString("total = "+minCostClimbingStairs(new int[]{0,1,2,2}));
+        //Show.showString("total = "+minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
+        Show.showString("total = "+divide(-5,-2));
     }
 
     public static int monotoneIncreasingDigits(int N) {
@@ -75,6 +76,16 @@ public class TestMain {
         }else {
             DSF(cost,index+1,total+cost[index]);
         }
+    }
+    public static int divide(int dividend, int divisor) {
+        int count = 0;
+        int abs = Math.abs(dividend);
+        while (abs>=divisor){
+            abs -=divisor;
+            count++;
+        }
+        count *= (dividend*divisor) > 0 ? 1:-1;
+        return count;
     }
 
 }
