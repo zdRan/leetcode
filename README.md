@@ -9,6 +9,10 @@
 ## 题目目录
 | # | 思路 | 代码 | 难度 |
 |---| ----- | -------- | ---------- |
+|29 |[Divide Two Integers](./src/com/leetcode/problems/DivideIntegers.md)|[Java](./src/com/leetcode/submissions/DivideIntegers.java)|Medium	|
+|28 |[Implement strStr()](./src/com/leetcode/problems/ImplementStr.md)|[Java](./src/com/leetcode/submissions/ImplementStr.java)|Easy|
+|27 |[Remove Element](./src/com/leetcode/problems/RemoveElement.md)|[Java](./src/com/leetcode/submissions/RemoveElement.java)|Easy|
+|26 |[Remove Duplicates from Sorted Array](./src/com/leetcode/problems/RemoveDuplicates.md)|[Java](./src/com/leetcode/submissions/RemoveDuplicates.java)|Easy|
 |25 |[Reverse Nodes in k-Group](./src/com/leetcode/problems/ReverseNodes.md)|[Java](./src/com/leetcode/submissions/ReverseNodes.java)|Hard|
 |24 |[Swap Nodes in Pairs](./src/com/leetcode/problems/SwapNodes.md)|[Java](./src/com/leetcode/submissions/SwapNodes.java)|Medium|
 |23 |[Merge k Sorted Lists](./src/com/leetcode/problems/MergekLists.md)|[Java](./src/com/leetcode/submissions/MergekLists.java)|Hard|

@@ -1,4 +1,4 @@
-# 18. 4Sum
+# 29. Divide Two Integers
 ## Description
 Divide two integers without using multiplication, division and mod operator.
 
