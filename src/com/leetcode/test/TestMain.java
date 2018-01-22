@@ -20,7 +20,7 @@ public class TestMain {
         //Show.showString("monotoneIncreasingDigits = "+monotoneIncreasingDigits(1122333221));
         //Show.showString("total = "+minCostClimbingStairs(new int[]{0,1,2,2}));
         //Show.showString("total = "+minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
-        Show.showString("total = "+divide(-5,-2));
+        Show.showString("total = "+divide(-2147483648,1));
     }
 
     public static int monotoneIncreasingDigits(int N) {
@@ -79,9 +79,10 @@ public class TestMain {
     }
     public static int divide(int dividend, int divisor) {
         int count = 0;
-        int abs = Math.abs(dividend);
-        while (abs>=divisor){
-            abs -=divisor;
+        int absDend = Math.abs(dividend);
+        int absSor = Math.abs(divisor);
+        while (absDend>=absSor){
+            absDend -=absSor;
             count++;
         }
         count *= (dividend*divisor) > 0 ? 1:-1;
