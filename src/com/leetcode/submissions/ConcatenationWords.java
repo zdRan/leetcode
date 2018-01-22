@@ -61,5 +61,4 @@ public class ConcatenationWords {
             System.out.println(i);
         }
     }
-
 }
