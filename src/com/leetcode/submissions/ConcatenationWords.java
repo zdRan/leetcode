@@ -8,36 +8,57 @@ import java.util.*;
  * @author ranzd@chinaunicom.cn
  */
 public class ConcatenationWords {
-    public List<Integer> findSubstring(String s, String[] words) {
-        List<Integer> result = new ArrayList<>();
-        byte[] flag = new byte[s.length()];
+    public static List<Integer> findSubstring(String s, String[] words) {
+        Map<String,Integer> wordMap = new HashMap<>();
+        for (String word:words) {
+            if (wordMap.containsKey(word)){
+                wordMap.put(word,wordMap.get(word)+1);
+            }else {
+                wordMap.put(word,1);
+            }
+        }
+
+        Map<String,Integer> temp = new HashMap<>();
+        List<Integer> ans = new ArrayList<>();
+        int start = 0;
+        int end = 0;
         int wordLength = words[0].length();
+        int arrLength = words.length;
+        int tempArrLength = 0;
+        while (end+wordLength<s.length()+1){
+            String tempWord = s.substring(end,end+wordLength);
 
-        List<String> wordList = Arrays.asList(words);
-        for (int i = 0; i <= s.length()-wordLength; i++) {
-            if (wordList.contains(s.substring(i,i+wordLength))){
-                flag[i] = 1;
-            }
-        }
+            Integer value = wordMap.get(tempWord);
+            Integer tempValue = temp.get(tempWord);
 
-        for (int i = 0; i < flag.length; i++) {
-            if (flag[i] == 0){
-                continue;
-            }
-            int k = i;
-            while (wordList.size()!=0 && k<s.length()-wordLength){
-                if (wordList.contains(s.substring(k,k+wordLength))){
-                    wordList.remove(s.substring(k,k+wordLength));
-                    k += wordLength;
-                }else {
-                    break;
+            if (value!=null&&(tempValue == null || tempValue<value)){
+                if (tempValue == null){
+                    tempValue = 0;
                 }
+                temp.put(tempWord,tempValue+1);
+                end+=wordLength;
+                tempArrLength++;
+            }else {
+                start++;
+                end = start;
+                tempArrLength = 0;
+                temp.clear();
             }
-            if (wordList.size() == 0){
-                result.add(i);
+            if (tempArrLength == arrLength){
+                ans.add(start);
+                start++;
+                end = start;
+                tempArrLength = 0;
+                temp.clear();
             }
-            wordList = Arrays.asList(words);
         }
-        return result;
+        return ans;
+    }
+    public static void main(String[] args){
+        List<Integer> ans = findSubstring("123345345123",new String[]{"123","345"});
+
+        for (Integer i:ans) {
+            System.out.println(i);
+        }
     }
 }

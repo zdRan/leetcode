@@ -1,6 +1,5 @@
 package com.leetcode.mains;
 
-import com.leetcode.submissions.ConcatenationWords;
 import com.leetcode.utils.Show;
 
 import java.util.List;
