@@ -7,8 +7,9 @@
 5. utils：工具类，一些测试用到的工具类，例如打印数组等。
 6. test：用于测试一些API。
 ## 题目目录
-| # | 思路 | 代码 | 难度 |
+| # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|30 |[Substring with Concatenation of All Words](./src/com/leetcode/problems/ConcatenationWords.md)|[Java](./src/com/leetcode/submissions/ConcatenationWords.md.java)|Hard|
 |29 |[Divide Two Integers](./src/com/leetcode/problems/DivideIntegers.md)|[Java](./src/com/leetcode/submissions/DivideIntegers.java)|Medium	|
 |28 |[Implement strStr()](./src/com/leetcode/problems/ImplementStr.md)|[Java](./src/com/leetcode/submissions/ImplementStr.java)|Easy|
 |27 |[Remove Element](./src/com/leetcode/problems/RemoveElement.md)|[Java](./src/com/leetcode/submissions/RemoveElement.java)|Easy|
