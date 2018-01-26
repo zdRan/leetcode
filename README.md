@@ -9,7 +9,9 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
-|30 |[Substring with Concatenation of All Words](./src/com/leetcode/problems/ConcatenationWords.md)|[Java](./src/com/leetcode/submissions/ConcatenationWords.md.java)|Hard|
+|32 |[Longest Valid Parentheses](./src/com/leetcode/problems/LongestValidParentheses.md)|[Java](./src/com/leetcode/submissions/LongestValidParentheses.java)|Hard|
+|31 |[Next Permutation](./src/com/leetcode/problems/NextPermutation.md)|[Java](./src/com/leetcode/submissions/NextPermutation.java)|Medium|
+|30 |[Substring with Concatenation of All Words](./src/com/leetcode/problems/ConcatenationWords.md)|[Java](./src/com/leetcode/submissions/ConcatenationWords.java)|Hard|
 |29 |[Divide Two Integers](./src/com/leetcode/problems/DivideIntegers.md)|[Java](./src/com/leetcode/submissions/DivideIntegers.java)|Medium	|
 |28 |[Implement strStr()](./src/com/leetcode/problems/ImplementStr.md)|[Java](./src/com/leetcode/submissions/ImplementStr.java)|Easy|
 |27 |[Remove Element](./src/com/leetcode/problems/RemoveElement.md)|[Java](./src/com/leetcode/submissions/RemoveElement.java)|Easy|
