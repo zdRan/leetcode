@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|36 |[Valid Sudoku](./src/com/leetcode/problems/ValidSudoku.md)|[Java](./src/com/leetcode/submissions/ValidSudoku.java)|Medium|
 |35 |[Search Insert Position](./src/com/leetcode/problems/SearchInsertPosition.md)|[Java](./src/com/leetcode/submissions/SearchInsertPosition.java)|Easy|
 |34 |[Search for a Range](./src/com/leetcode/problems/SearchRange.md)|[Java](./src/com/leetcode/submissions/SearchRange.java)|Medium|
 |33 |[Search in Rotated Sorted Array](./src/com/leetcode/problems/SearchArray.md)|[Java](./src/com/leetcode/submissions/SearchArray.java)|Medium|
