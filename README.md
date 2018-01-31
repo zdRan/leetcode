@@ -1,7 +1,7 @@
 # [LeetCode 算法题目](https://github.com/zdRan/leetcode)
 ## src目录结构说明
 1. extend：扩展包，题目中需要的一些扩展类，例如链表题目的节点类等。
-2. mains：Main 方法测试类，所有题目的测试入口类。可以直接运行。
+2. mains：Main 方法测试类，所有题目的测试入口类。可以直接运行。（从28题之后所有的测试代码都在submissions下）
 3. problems：题目说明类，包含解题的一些思路和需要注意的一些测试数据。
 4. submissions：提交的代码，解题的具体实现在这个包下。
 5. utils：工具类，一些测试用到的工具类，例如打印数组等。
@@ -9,6 +9,9 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|35 |[Search Insert Position](./src/com/leetcode/problems/SearchInsertPosition.md)|[Java](./src/com/leetcode/submissions/SearchInsertPosition.java)|Easy|
+|34 |[Search for a Range](./src/com/leetcode/problems/SearchRange.md)|[Java](./src/com/leetcode/submissions/SearchRange.java)|Medium|
+|33 |[Search in Rotated Sorted Array](./src/com/leetcode/problems/SearchArray.md)|[Java](./src/com/leetcode/submissions/SearchArray.java)|Medium|
 |32 |[Longest Valid Parentheses](./src/com/leetcode/problems/LongestValidParentheses.md)|[Java](./src/com/leetcode/submissions/LongestValidParentheses.java)|Hard|
 |31 |[Next Permutation](./src/com/leetcode/problems/NextPermutation.md)|[Java](./src/com/leetcode/submissions/NextPermutation.java)|Medium|
 |30 |[Substring with Concatenation of All Words](./src/com/leetcode/problems/ConcatenationWords.md)|[Java](./src/com/leetcode/submissions/ConcatenationWords.java)|Hard|
