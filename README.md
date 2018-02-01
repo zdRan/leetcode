@@ -9,6 +9,8 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|38 |[Count and Say](./src/com/leetcode/problems/CountAndSay.md)|[Java](./src/com/leetcode/submissions/CountAndSay.java)||
+|37 |[Sudoku Solver](./src/com/leetcode/problems/SudokuSolver.md)|[Java](./src/com/leetcode/submissions/SudokuSolver.java)|Hard|
 |36 |[Valid Sudoku](./src/com/leetcode/problems/ValidSudoku.md)|[Java](./src/com/leetcode/submissions/ValidSudoku.java)|Medium|
 |35 |[Search Insert Position](./src/com/leetcode/problems/SearchInsertPosition.md)|[Java](./src/com/leetcode/submissions/SearchInsertPosition.java)|Easy|
 |34 |[Search for a Range](./src/com/leetcode/problems/SearchRange.md)|[Java](./src/com/leetcode/submissions/SearchRange.java)|Medium|
