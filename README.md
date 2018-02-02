@@ -9,9 +9,9 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
-|40 |[Combination Sum II](./src/com/leetcode/problems/CombinationSumII.md)|[Java](./src/com/leetcode/submissions/CombinationSumII.java)||
-|39 |[Combination Sum](./src/com/leetcode/problems/CombinationSum.md)|[Java](./src/com/leetcode/submissions/CombinationSum.java)||
-|38 |[Count and Say](./src/com/leetcode/problems/CountAndSay.md)|[Java](./src/com/leetcode/submissions/CountAndSay.java)||
+|40 |[Combination Sum II](./src/com/leetcode/problems/CombinationSumII.md)|[Java](./src/com/leetcode/submissions/CombinationSumII.java)|Medium|
+|39 |[Combination Sum](./src/com/leetcode/problems/CombinationSum.md)|[Java](./src/com/leetcode/submissions/CombinationSum.java)|Medium|
+|38 |[Count and Say](./src/com/leetcode/problems/CountAndSay.md)|[Java](./src/com/leetcode/submissions/CountAndSay.java)|Easy|
 |37 |[Sudoku Solver](./src/com/leetcode/problems/SudokuSolver.md)|[Java](./src/com/leetcode/submissions/SudokuSolver.java)|Hard|
 |36 |[Valid Sudoku](./src/com/leetcode/problems/ValidSudoku.md)|[Java](./src/com/leetcode/submissions/ValidSudoku.java)|Medium|
 |35 |[Search Insert Position](./src/com/leetcode/problems/SearchInsertPosition.md)|[Java](./src/com/leetcode/submissions/SearchInsertPosition.java)|Easy|
