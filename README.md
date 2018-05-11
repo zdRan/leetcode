@@ -9,6 +9,8 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|42 |[Trapping Rain Water](./src/com/leetcode/problems/TrappingRainWater.md)|[Java](./src/com/leetcode/submissions/TrappingRainWater.java)|Medium|
+|41 |[First missing positive](./src/com/leetcode/problems/FirstMissingPositive.md)|[Java](./src/com/leetcode/submissions/FirstMissingPositive.java)|Medium|
 |40 |[Combination Sum II](./src/com/leetcode/problems/CombinationSumII.md)|[Java](./src/com/leetcode/submissions/CombinationSumII.java)|Medium|
 |39 |[Combination Sum](./src/com/leetcode/problems/CombinationSum.md)|[Java](./src/com/leetcode/submissions/CombinationSum.java)|Medium|
 |38 |[Count and Say](./src/com/leetcode/problems/CountAndSay.md)|[Java](./src/com/leetcode/submissions/CountAndSay.java)|Easy|
