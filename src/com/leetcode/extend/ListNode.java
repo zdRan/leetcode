@@ -3,7 +3,7 @@ package com.leetcode.extend;
 /**
  * Create by ranzd on 2017/10/22
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class ListNode {
     public int val;

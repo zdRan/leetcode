@@ -6,11 +6,11 @@ import com.leetcode.utils.Show;
 /**
  * Create by ranzd on 2017/11/20
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class ReverseIntegerMain {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ReverseInteger reverseInteger = new ReverseInteger();
-        Show.showString("nu = "+ reverseInteger.reverse(2147483647));
+        Show.showString("nu = " + reverseInteger.reverse(2147483647));
     }
 }

@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Create by ranzd on 2018/1/26
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class SearchArray {
     public static int search(int[] nums, int target) {
@@ -11,14 +11,14 @@ public class SearchArray {
         int r = nums.length - 1;
         int mid;
         //排除target值在边界导致死循环
-        if (target == nums[0]){
+        if (target == nums[0]) {
             return 0;
         }
-        if (target == nums[nums.length-1]){
-            return nums.length-1;
+        if (target == nums[nums.length - 1]) {
+            return nums.length - 1;
         }
         while (l + 1 < r) {
-            mid = (l+r)/2;
+            mid = (l + r) / 2;
             if (nums[mid] == target) {
                 return mid;
             }

@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Create by ranzd on 2018/1/23
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class LongestValidParentheses {
     public static int longestValidParentheses(String s) {

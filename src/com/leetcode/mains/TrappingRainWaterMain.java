@@ -11,7 +11,7 @@ import com.leetcode.utils.Show;
 public class TrappingRainWaterMain {
     public static void main(String[] args) {
         TrappingRainWater trappingRainWater = new TrappingRainWater();
-        int ans = trappingRainWater.trap(new int[]{2,0,2});
-        Show.showString(ans+"");
+        int ans = trappingRainWater.trap(new int[]{2, 0, 2});
+        Show.showString(ans + "");
     }
 }

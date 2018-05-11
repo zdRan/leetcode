@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 /**
  * Create by ranzd on 2017/11/21
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class StringToInteger {
     /**
@@ -30,6 +30,7 @@ public class StringToInteger {
      * 结束状态
      */
     private static final int STEP_4 = 4;
+
     public int myAtoi(String str) {
         //当前状态
         int current = STEP_1;
@@ -39,7 +40,7 @@ public class StringToInteger {
             switch (current) {
                 case STEP_1: {
                     sb.delete(0, sb.length());
-                    if (c != '+' && c!='-' && c != ' ' &&(c<'0'||c>'9')){
+                    if (c != '+' && c != '-' && c != ' ' && (c < '0' || c > '9')) {
                         current = STEP_4;
                     }
                     if (c == '+' || c == '-') {
@@ -50,26 +51,29 @@ public class StringToInteger {
                         current = STEP_3;
                         sb.append(c);
                     }
-                }break;
+                }
+                break;
                 case STEP_2: {
                     if (c >= '0' && c <= '9') {
                         current = STEP_3;
                         sb.append(c);
-                    }else {
-                        sb.delete(0,sb.length());
+                    } else {
+                        sb.delete(0, sb.length());
                         current = STEP_4;
                     }
 
-                }break;
-                case STEP_3:{
+                }
+                break;
+                case STEP_3: {
                     if (c >= '0' && c <= '9') {
                         current = STEP_3;
                         sb.append(c);
-                    }else {
+                    } else {
                         current = STEP_4;
                     }
-                }break;
-                case STEP_4:{
+                }
+                break;
+                case STEP_4: {
                     break;
                 }
                 default: {
@@ -78,22 +82,24 @@ public class StringToInteger {
             }
         }
         int num;
-        try{
-            if (sb.length() == 0 || current == STEP_2){
+        try {
+            if (sb.length() == 0 || current == STEP_2) {
                 return 0;
             }
             num = Integer.parseInt(sb.toString());
-        }catch (NumberFormatException e){
-            if (sb.indexOf("-") == 0){
+        } catch (NumberFormatException e) {
+            if (sb.indexOf("-") == 0) {
                 return Integer.MIN_VALUE;
-            }else {
+            } else {
                 return Integer.MAX_VALUE;
             }
         }
         return num;
     }
+
     /**
      * 正则表达式，未完成。
+     *
      * @param str 输入
      * @return 整数
      */

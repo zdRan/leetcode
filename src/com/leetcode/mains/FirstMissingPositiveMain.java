@@ -12,9 +12,9 @@ public class FirstMissingPositiveMain {
     public static void main(String[] args) {
         FirstMissingPositive firstMissingPositive = new FirstMissingPositive();
 
-        int num = firstMissingPositive.firstMissingPositive(new int[]{3,4,-1,1});
+        int num = firstMissingPositive.firstMissingPositive(new int[]{3, 4, -1, 1});
         System.out.println(num);
-        num = firstMissingPositive.firstMissingPositive(new int[]{1,1});
+        num = firstMissingPositive.firstMissingPositive(new int[]{1, 1});
         System.out.println(num);
     }
 }

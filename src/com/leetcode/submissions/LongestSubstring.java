@@ -6,30 +6,31 @@ import java.util.Set;
 /**
  * Create by ranzd on 2017/10/23
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         int max = 0;
 
-        if (s == null || s.length() == 0){
+        if (s == null || s.length() == 0) {
             return 0;
         }
-        if (s.length() == 1){
+        if (s.length() == 1) {
             return 1;
         }
         int start = 0;
-        int end  = 1;
-        while (end != s.length()){
-            int index = s.lastIndexOf(s.charAt(end),end-1);
-            if (index != -1 && start <= index){
-                start = index+1;
+        int end = 1;
+        while (end != s.length()) {
+            int index = s.lastIndexOf(s.charAt(end), end - 1);
+            if (index != -1 && start <= index) {
+                start = index + 1;
             }
-            max = (end - start + 1) >max ? (end - start +1 ):max;
+            max = (end - start + 1) > max ? (end - start + 1) : max;
             end++;
         }
         return max;
     }
+
     public int other(String s) {
         int i = 0, j = 0, max = 0;
         Set<Character> set = new HashSet<>();

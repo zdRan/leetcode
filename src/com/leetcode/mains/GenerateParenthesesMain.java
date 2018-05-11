@@ -8,14 +8,14 @@ import java.util.List;
 /**
  * Create by ranzd on 2017/12/8
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class GenerateParenthesesMain {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         GenerateParentheses generateParentheses = new GenerateParentheses();
         List<String> result = generateParentheses.generateParenthesis(3);
 
-        for (String str:result) {
+        for (String str : result) {
             Show.showString(str);
         }
     }

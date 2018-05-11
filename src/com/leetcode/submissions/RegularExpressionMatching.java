@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Create by ranzd on 17-11-21
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class RegularExpressionMatching {
     public boolean isMatch(String s, String p) {
@@ -47,6 +47,7 @@ public class RegularExpressionMatching {
 
         }
     }
+
     public boolean isMatch2(String s, String p) {
         boolean[] match = new boolean[s.length() + 1];
         match[s.length()] = true;

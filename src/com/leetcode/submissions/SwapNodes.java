@@ -5,11 +5,11 @@ import com.leetcode.extend.ListNode;
 /**
  * Create by ranzd on 2017/12/11
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class SwapNodes {
     public ListNode swapPairs(ListNode head) {
-        if(head == null || head.next == null){
+        if (head == null || head.next == null) {
             return head;
         }
         ListNode temp = head.next;

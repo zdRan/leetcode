@@ -5,24 +5,24 @@ import com.leetcode.extend.ListNode;
 /**
  * Create by ranzd on 2017/12/6
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class RemoveNodeFromList {
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
-        if (n == 0){
+        if (n == 0) {
             return head;
         }
 
         head = reverse(head);
-        if (n == 1){
+        if (n == 1) {
             return reverse(head.next);
         }
         ListNode current = head;
         ListNode left = head;
-        while (current!=null){
+        while (current != null) {
             n--;
-            if (n == 0){
+            if (n == 0) {
                 left.next = current.next;
                 break;
             }
@@ -31,10 +31,11 @@ public class RemoveNodeFromList {
         }
         return reverse(head);
     }
-    private ListNode reverse(ListNode head){
+
+    private ListNode reverse(ListNode head) {
         ListNode last = null;
         ListNode reHead = null;
-        while (head!=null){
+        while (head != null) {
             reHead = new ListNode(head.val);
             reHead.next = last;
             head = head.next;

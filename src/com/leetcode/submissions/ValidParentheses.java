@@ -5,33 +5,33 @@ import java.util.Stack;
 /**
  * Create by ranzd on 2017/12/6
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class ValidParentheses {
     public boolean isValid(String s) {
         Stack<Character> characterStack = new Stack<>();
-        for (char ch:s.toCharArray()) {
-            if (!characterStack.empty()){
+        for (char ch : s.toCharArray()) {
+            if (!characterStack.empty()) {
                 char left = characterStack.peek();
-                switch (ch){
+                switch (ch) {
                     case ')':
-                        if (left == '('){
+                        if (left == '(') {
                             characterStack.pop();
-                        }else {
+                        } else {
                             return false;
                         }
                         break;
                     case '}':
-                        if (left == '{'){
+                        if (left == '{') {
                             characterStack.pop();
-                        }else {
+                        } else {
                             return false;
                         }
                         break;
                     case ']':
-                        if (left == '['){
+                        if (left == '[') {
                             characterStack.pop();
-                        }else {
+                        } else {
                             return false;
                         }
                         break;
@@ -39,7 +39,7 @@ public class ValidParentheses {
                         characterStack.push(ch);
                         break;
                 }
-            }else {
+            } else {
                 characterStack.push(ch);
             }
         }

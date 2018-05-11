@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2017/10/26
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class MedianTwoArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

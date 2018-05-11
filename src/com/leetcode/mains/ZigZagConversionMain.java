@@ -6,12 +6,12 @@ import com.leetcode.utils.Show;
 /**
  * Create by ranzd on 2017/11/20
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class ZigZagConversionMain {
     public static void main(String[] args) {
         ZigZagConversion zigZagConversion = new ZigZagConversion();
 
-        Show.showString(zigZagConversion.convert("qwe",2));
+        Show.showString(zigZagConversion.convert("qwe", 2));
     }
 }

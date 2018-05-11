@@ -6,12 +6,12 @@ import com.leetcode.utils.Show;
 /**
  * Create by ranzd on 2017/10/23
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class LongestSubstringMain {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         LongestSubstring longestSubstring = new LongestSubstring();
         int num = longestSubstring.lengthOfLongestSubstring("zsabca12345");
-        Show.showString("num = "+num);
+        Show.showString("num = " + num);
     }
 }

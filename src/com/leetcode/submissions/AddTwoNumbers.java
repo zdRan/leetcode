@@ -5,7 +5,7 @@ import com.leetcode.extend.ListNode;
 /**
  * Create by ranzd on 2017/10/22
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class AddTwoNumbers {
 
@@ -47,7 +47,7 @@ public class AddTwoNumbers {
             }
             index = new ListNode(number);
         }
-        if (index.val != 0){
+        if (index.val != 0) {
             last.next = index;
         }
 
