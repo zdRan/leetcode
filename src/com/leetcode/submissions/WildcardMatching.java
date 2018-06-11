@@ -60,30 +60,48 @@ public class WildcardMatching {
         }
     }
 
-    private static boolean dp() {
+    private static boolean dp(String s,String p) {
+        boolean[][] dpArray = new boolean[s.length()+1][p.length()+1];
+        dpArray[0][0] = true;
 
+        for (int i = 1; i < s.length(); i++) {
+            dpArray[i][0] = false;
+            for (int j = 1; j < p.length(); j++) {
+                if ('*' == p.charAt(j-1)) {
+                    dpArray[i][j] = dpArray[i - 1][j - 1] || dpArray[i - 1][j] || dpArray[i][j - 1];
+                }else {
+                    if ('?' == p.charAt(j - 1)) {
+                        dpArray[i][j] = dpArray[i - 1][j - 1];
+                    }
+
+                    dpArray[i][j] = (s.charAt(i - 1) == p.charAt(j - 1)) && dpArray[i-1][j-1];
+                }
+
+            }
+        }
+        return dpArray[s.length()][p.length()];
     }
 
     public static void main(String[] args) {
         boolean flag;
-        flag = isMatch("abcd", "ab?d");
+        flag = dp("abcd", "ab?d");
         System.out.println("1:" + flag);
 
-        flag = isMatch("abcd", "a*d");
+        flag = dp("abcd", "a*d");
         System.out.println("2:" + flag);
 
-        flag = isMatch("abcd", "a*");
+        flag = dp("abcd", "a*");
         System.out.println("1:" + flag);
 
-        flag = isMatch("abcd", "a*b*c*d");
+        flag = dp("abcd", "a*b*c*d");
         System.out.println("3:" + flag);
 
-        flag = isMatch("abcd", "a*b*c*d");
+        flag = dp("abcd", "a*b*c*d");
         System.out.println("4:" + flag);
 
-        flag = isMatch("abcd", "a*b*c*d*");
+        flag = dp("abcd", "a*b*c*d*");
         System.out.println("5:" + flag);
-        flag = isMatch("abcd", "*a*b*c*d*");
+        flag = dp("abcd", "*a*b*c*d*");
         System.out.println("6:" + flag);
 
         flag = isMatch("aa", "a");
@@ -91,5 +109,7 @@ public class WildcardMatching {
 
         flag = isMatch("", "");
         System.out.println("7:" + flag);
+
+        System.out.println("dp1:" + dp("aa", "a"));
     }
 }
