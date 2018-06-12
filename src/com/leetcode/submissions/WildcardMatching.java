@@ -12,7 +12,7 @@ public class WildcardMatching {
             return "".equals(s);
         }
         if ("".equals(s)) {
-            for (int i = 0;i<p.length();i++) {
+            for (int i = 0; i < p.length(); i++) {
                 if ('*' != p.charAt(i)) {
                     return false;
                 }
@@ -60,23 +60,26 @@ public class WildcardMatching {
         }
     }
 
-    private static boolean dp(String s,String p) {
-        boolean[][] dpArray = new boolean[s.length()+1][p.length()+1];
+    private static boolean dp(String s, String p) {
+        boolean[][] dpArray = new boolean[s.length() + 1][p.length() + 1];
         dpArray[0][0] = true;
-
-        for (int i = 1; i < s.length(); i++) {
-            dpArray[i][0] = false;
-            for (int j = 1; j < p.length(); j++) {
-                if ('*' == p.charAt(j-1)) {
-                    dpArray[i][j] = dpArray[i - 1][j - 1] || dpArray[i - 1][j] || dpArray[i][j - 1];
-                }else {
-                    if ('?' == p.charAt(j - 1)) {
-                        dpArray[i][j] = dpArray[i - 1][j - 1];
-                    }
-
-                    dpArray[i][j] = (s.charAt(i - 1) == p.charAt(j - 1)) && dpArray[i-1][j-1];
+        //解决以 * 号开头的问题 例如 s = abc，p = *****c
+        for (int i = 0; i < p.length(); i++) {
+            if ('*' == p.charAt(i)){
+                dpArray[0][i+1] = true;
+            }else {
+                break;
+            }
+        }
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = 0; j < p.length(); j++) {
+                if ('*' == p.charAt(j)) {
+                    dpArray[i + 1][j + 1] = dpArray[i][j] || dpArray[i][j + 1] || dpArray[i + 1][j];
+                } else if ('?' == p.charAt(j)) {
+                    dpArray[i + 1][j + 1] = dpArray[i][j];
+                } else {
+                    dpArray[i + 1][j + 1] = (s.charAt(i) == p.charAt(j)) && dpArray[i][j];
                 }
-
             }
         }
         return dpArray[s.length()][p.length()];
@@ -101,15 +104,17 @@ public class WildcardMatching {
 
         flag = dp("abcd", "a*b*c*d*");
         System.out.println("5:" + flag);
-        flag = dp("abcd", "*a*b*c*d*");
+
+        flag = dp("abcd", "**a*b*c*d*");
         System.out.println("6:" + flag);
 
-        flag = isMatch("aa", "a");
-        System.out.println("7:" + flag);
+        flag = dp("aab", "c*a*b");
+        System.out.println("false:" + flag);
 
-        flag = isMatch("", "");
-        System.out.println("7:" + flag);
+        flag = dp("zacabz","*a?b*");
+        System.out.println("false:" + flag);
 
-        System.out.println("dp1:" + dp("aa", "a"));
+        flag = dp("adceb","*a*b");
+        System.out.println("true:" + flag);
     }
 }
