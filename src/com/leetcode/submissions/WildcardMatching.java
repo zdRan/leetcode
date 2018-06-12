@@ -65,9 +65,9 @@ public class WildcardMatching {
         dpArray[0][0] = true;
         //解决以 * 号开头的问题 例如 s = abc，p = *****c
         for (int i = 0; i < p.length(); i++) {
-            if ('*' == p.charAt(i)){
-                dpArray[0][i+1] = true;
-            }else {
+            if ('*' == p.charAt(i)) {
+                dpArray[0][i + 1] = true;
+            } else {
                 break;
             }
         }
@@ -111,10 +111,10 @@ public class WildcardMatching {
         flag = dp("aab", "c*a*b");
         System.out.println("false:" + flag);
 
-        flag = dp("zacabz","*a?b*");
+        flag = dp("zacabz", "*a?b*");
         System.out.println("false:" + flag);
 
-        flag = dp("adceb","*a*b");
+        flag = dp("adceb", "*a*b");
         System.out.println("true:" + flag);
     }
 }
