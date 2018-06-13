@@ -79,21 +79,69 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 ? 和 *。
 * 当 ```p[j] = "*"```
 ```
 分3种情况：
-1. 让"*"匹配 0 个 字符。
-    那么 dpArray[i][j] = dpArray[i][j-1]（注意我们之前的定义） 
+1. p[j] = "*"
+
+    1.1 让"*"匹配 0 个 字符。
+        那么 dpArray[i][j] = dpArray[i][j-1]
+        
+        解释一下：如果 s[i] 和 p[j-1] 匹配，那么 s[i] 和 p[j] 也匹配
+        
+        s =  abcd p = ab*cd i = 1，j = 2
+        dpArray[1][2] = dpArray[1][1]
+        
+    1.2 让"*" 匹配1个字符
+        那么 dpArray[i][j] = dpArray[i-1][j-1]
+        
+        解释一下：如果 s[i-1] 和 p[j-1] 匹配，那么 s[i] 和 p[j] 也匹配
+        s =  abcd p = ab*d i = 2，j = 2
+        dpArray[2][2] = dpArray[1][1]
     
-2. 让"*" 匹配1个字符
-    那么 dpArray[i][j] = dpArray[i-1][j-1]
-    
+    1.3 让"*" 匹配N个字符
+        那么 dpArray[i][j] = dpArray[i-1][j]
+        
+        解释一下：如果 s[i-1] 和 p[j] 匹配，那么 s[i] 和 p[j] 也匹配
+        s =  abcd p = a*d i = 2，j = 2
+        dpArray[2][1] = dpArray[1][1]
+ 
+```
+* 当 ```p[j] = "?"```
+```
+"?"只能匹配一个字符，所以
+
+dpArray[i][j] = dpArray[i-1][j-1]
+
+解释一下：如果 s[i-1] 和 p[j-1] 匹配，那么 s[i] 和 p[j] 也匹配
+```
+* 当 ```p[j] = "a-z"```
 ```
 
+dpArray[i][j] = dpArray[i-1][j-1] && s[i] == p[j]
 
+解释一下：如果 s[i-1] 和 p[j-1] 匹配 并且 s[i] == p[j]，那么 s[i] 和 p[j] 也匹配
 
+如果不太理解可以手动实现这个过程：以 s = abcd ，p =  a*d 为例
 
+        ""  a   *   d
+    ""  T   F   F   F
+ 
+    a   F   T   T   F
+    
+    b   F   F   T   F
+    
+    c   F   F   T   F
+    
+    d   F   F   T   T
 
+多手写几次这个数组慢慢就理解了。
+```
+
+最后 ```dp[s.length()][p.length()]```就是最终答案
 ## Note
 注意测试数据:
 
 ```$xslt
-
+s = "" p = ""
+s = "abcd" p = "*abcd"
+s = "abcd" p = "****abcd"
+s = "abcd" p = "****a*b*c*d*"
 ``` 
