@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|44 |[WildcardMatching](./src/com/leetcode/problems/WildcardMatching.md)|[Java](./src/com/leetcode/submissions/WildcardMatching.java)|Hard|
 |43 |[Multiply strings](./src/com/leetcode/problems/MultiplyStrings.md)|[Java](./src/com/leetcode/submissions/MultiplyStrings.java)|Medium|
 |42 |[Trapping Rain Water](./src/com/leetcode/problems/TrappingRainWater.md)|[Java](./src/com/leetcode/submissions/TrappingRainWater.java)|Hard|
 |41 |[First missing positive](./src/com/leetcode/problems/FirstMissingPositive.md)|[Java](./src/com/leetcode/submissions/FirstMissingPositive.java)|Hard|
