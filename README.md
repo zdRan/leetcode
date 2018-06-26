@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|45 |[Permutations](./src/com/leetcode/problems/Permutations.md)|[Java](./src/com/leetcode/submissions/Permutations.java)|Medium|
 |45 |[JumpGame](./src/com/leetcode/problems/JumpGame.md)|[Java](./src/com/leetcode/submissions/JumpGame.java)|Hard|
 |44 |[WildcardMatching](./src/com/leetcode/problems/WildcardMatching.md)|[Java](./src/com/leetcode/submissions/WildcardMatching.java)|Hard|
 |43 |[Multiply strings](./src/com/leetcode/problems/MultiplyStrings.md)|[Java](./src/com/leetcode/submissions/MultiplyStrings.java)|Medium|
