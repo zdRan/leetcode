@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|52 |[N-Queens II](./src/com/leetcode/problems/NQueens.md)|[Java](./src/com/leetcode/submissions/NQueensII.java)|Hard|
 |51 |[N-Queens](./src/com/leetcode/problems/NQueens.md)|[Java](./src/com/leetcode/submissions/NQueens.java)|Hard|
 |50 |[Pow(x, n)](./src/com/leetcode/problems/PowXN.md)|[Java](./src/com/leetcode/submissions/PowXN.java)|Medium|
 |49 |[Group Anagrams](./src/com/leetcode/problems/GroupAnagrams.md)|[Java](./src/com/leetcode/submissions/GroupAnagrams.java)|Medium|
