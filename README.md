@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|53 |[Maximum Subarray](./src/com/leetcode/problems/MaximumSubarray.md)|[Java](./src/com/leetcode/submissions/MaximumSubarray.java)|Easy|
 |52 |[N-Queens II](./src/com/leetcode/problems/NQueens.md)|[Java](./src/com/leetcode/submissions/NQueensII.java)|Hard|
 |51 |[N-Queens](./src/com/leetcode/problems/NQueens.md)|[Java](./src/com/leetcode/submissions/NQueens.java)|Hard|
 |50 |[Pow(x, n)](./src/com/leetcode/problems/PowXN.md)|[Java](./src/com/leetcode/submissions/PowXN.java)|Medium|
