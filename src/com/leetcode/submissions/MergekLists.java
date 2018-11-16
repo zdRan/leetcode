@@ -12,12 +12,6 @@ public class MergekLists {
         if (lists == null || lists.length == 0) {
             return null;
         }
-//        ListNode result = lists[0];
-//        for (int i = 1;i<lists.length;i++){
-//            result = mergeTwoLists2(result,lists[i]);
-//        }
-//        return result;
-
         return divide(0, lists.length - 1, lists);
     }
 
@@ -27,19 +21,19 @@ public class MergekLists {
         }
         ListNode left = divide(start, (start + end) / 2, listNodes);
         ListNode right = divide((start + end) / 2 + 1, end, listNodes);
-        return mergeTwoLists2(left, right);
+        return mergeTwoLists(left, right);
     }
 
-    public ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
-        if (l1 == null) return l2;
-        if (l2 == null) return l1;
+    public ListNode mergeTwoLists(ListNode leftList, ListNode rightList) {
+        if (leftList == null) return rightList;
+        if (rightList == null) return leftList;
 
-        if (l1.val < l2.val) {
-            l1.next = mergeTwoLists2(l1.next, l2);
-            return l1;
+        if (leftList.val < rightList.val) {
+            leftList.next = mergeTwoLists(leftList.next, rightList);
+            return leftList;
         } else {
-            l2.next = mergeTwoLists2(l1, l2.next);
-            return l2;
+            rightList.next = mergeTwoLists(leftList, rightList.next);
+            return rightList;
         }
     }
 }
