@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|56 |[Merge Intervals](./src/com/leetcode/problems/MergeIntervals.md)|[Java](./src/com/leetcode/submissions/MergeIntervals.java)|Medium|
 |55 |[Jump Game](./src/com/leetcode/problems/JumpGame2.md)|[Java](./src/com/leetcode/submissions/JumpGame2.java)|Medium|
 |54 |[Spiral Matrix](./src/com/leetcode/problems/SpiralMatrix.md)|[Java](./src/com/leetcode/submissions/SpiralMatrix.java)|Medium|
 |53 |[Maximum Subarray](./src/com/leetcode/problems/MaximumSubarray.md)|[Java](./src/com/leetcode/submissions/MaximumSubarray.java)|Medium|
