@@ -41,3 +41,9 @@ jump length is 0, which makes it impossible to reach the last index.
 不断更新能够达到的最大值。
 
 最后判断是否超过数组长度。
+## Note
+
+```$xslt
+
+
+``` 
