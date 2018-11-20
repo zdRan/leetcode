@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|58 |[Length of Last Word](./src/com/leetcode/problems/LengthLastWord.md)|[Java](./src/com/leetcode/submissions/LengthLastWord.java)|Easy|
 |57 |[Insert Interval](./src/com/leetcode/problems/InsertInterval.md)|[Java](./src/com/leetcode/submissions/InsertInterval.java)|Hard|
 |56 |[Merge Intervals](./src/com/leetcode/problems/MergeIntervals.md)|[Java](./src/com/leetcode/submissions/MergeIntervals.java)|Medium|
 |55 |[Jump Game](./src/com/leetcode/problems/JumpGame2.md)|[Java](./src/com/leetcode/submissions/JumpGame2.java)|Medium|
