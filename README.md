@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|61 |[Rotate List](./src/com/leetcode/problems/RotateList.md)|[Java](./src/com/leetcode/submissions/RotateList.java)|Medium|
 |60 |[Permutation Sequence](./src/com/leetcode/problems/PermutationSequence.md)|[Java](./src/com/leetcode/submissions/PermutationSequence.java)|Medium|
 |59 |[Spiral Matrix II](./src/com/leetcode/problems/SpiralMatrixII.md)|[Java](./src/com/leetcode/submissions/SpiralMatrixII.java)|Medium|
 |58 |[Length of Last Word](./src/com/leetcode/problems/LengthLastWord.md)|[Java](./src/com/leetcode/submissions/LengthLastWord.java)|Easy|
