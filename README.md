@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|64 |[Minimum Path Sum](./src/com/leetcode/problems/MinimumPathSum.md)|[Java](./src/com/leetcode/submissions/MinimumPathSum.java)|Medium|
 |63 |[Unique Paths II](./src/com/leetcode/problems/UniquePathsII.md)|[Java](./src/com/leetcode/submissions/UniquePathsII.java)|Medium|
 |62 |[Unique Paths](./src/com/leetcode/problems/UniquePaths.md)|[Java](./src/com/leetcode/submissions/UniquePaths.java)|Medium|
 |61 |[Rotate List](./src/com/leetcode/problems/RotateList.md)|[Java](./src/com/leetcode/submissions/RotateList.java)|Medium|
