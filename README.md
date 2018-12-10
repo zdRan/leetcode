@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|65 |[Valid Number](./src/com/leetcode/problems/ValidNumber.md)|[Java](./src/com/leetcode/submissions/ValidNumber.java)|Hard|
 |64 |[Minimum Path Sum](./src/com/leetcode/problems/MinimumPathSum.md)|[Java](./src/com/leetcode/submissions/MinimumPathSum.java)|Medium|
 |63 |[Unique Paths II](./src/com/leetcode/problems/UniquePathsII.md)|[Java](./src/com/leetcode/submissions/UniquePathsII.java)|Medium|
 |62 |[Unique Paths](./src/com/leetcode/problems/UniquePaths.md)|[Java](./src/com/leetcode/submissions/UniquePaths.java)|Medium|
