@@ -9,6 +9,8 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|67 |[Add Binary](./src/com/leetcode/problems/AddBinary.md)|[Java](./src/com/leetcode/submissions/AddBinary.java)|Hard|
+|66 |[Plus One](./src/com/leetcode/problems/PlusOne.md)|[Java](./src/com/leetcode/submissions/PlusOne.java)|Easy|
 |65 |[Valid Number](./src/com/leetcode/problems/ValidNumber.md)|[Java](./src/com/leetcode/submissions/ValidNumber.java)|Hard|
 |64 |[Minimum Path Sum](./src/com/leetcode/problems/MinimumPathSum.md)|[Java](./src/com/leetcode/submissions/MinimumPathSum.java)|Medium|
 |63 |[Unique Paths II](./src/com/leetcode/problems/UniquePathsII.md)|[Java](./src/com/leetcode/submissions/UniquePathsII.java)|Medium|
