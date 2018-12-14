@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|68 |[Text Justification](./src/com/leetcode/problems/TextJustification.md)|[Java](./src/com/leetcode/submissions/TextJustification.java)|Hard|
 |67 |[Add Binary](./src/com/leetcode/problems/AddBinary.md)|[Java](./src/com/leetcode/submissions/AddBinary.java)|Hard|
 |66 |[Plus One](./src/com/leetcode/problems/PlusOne.md)|[Java](./src/com/leetcode/submissions/PlusOne.java)|Easy|
 |65 |[Valid Number](./src/com/leetcode/problems/ValidNumber.md)|[Java](./src/com/leetcode/submissions/ValidNumber.java)|Hard|
