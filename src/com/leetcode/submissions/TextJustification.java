@@ -1,7 +1,6 @@
 package com.leetcode.submissions;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -18,7 +17,7 @@ public class TextJustification {
             StringBuilder sb = new StringBuilder();
             int tempLen = 0;
             int lineWord = 0;
-            while (wordIndex<words.length && tempLen + words[wordIndex].length() <= maxWidth) {
+            while (wordIndex < words.length && tempLen + words[wordIndex].length() <= maxWidth) {
                 sb.append(words[wordIndex]);
                 tempLen += words[wordIndex].length();
                 wordIndex++;
@@ -46,10 +45,10 @@ public class TextJustification {
                 continue;
             }
             StringBuilder space = new StringBuilder();
-            for (int i = 0; i < spaceNumber/(lineWord-1); i++) {
+            for (int i = 0; i < spaceNumber / (lineWord - 1); i++) {
                 space.append(" ");
             }
-            int mod = spaceNumber % (lineWord-1);
+            int mod = spaceNumber % (lineWord - 1);
             int p = 0;
             while (spaceNumber != 0) {
                 p = sb.indexOf(" ", p);
@@ -72,9 +71,9 @@ public class TextJustification {
     }
 
     public static void main(String[] args) {
-        System.out.println(fullJustify(new String[]{"What","must","be","acknowledgment","shall","be"}, 16));
+        System.out.println(fullJustify(new String[]{"What", "must", "be", "acknowledgment", "shall", "be"}, 16));
         System.out.println("---------------------------------------------------------");
-        System.out.println(fullJustify(new String[]{"Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"}, 20));
+        System.out.println(fullJustify(new String[]{"Science", "is", "what", "we", "understand", "well", "enough", "to", "explain", "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do"}, 20));
     }
 
 }
