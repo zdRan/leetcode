@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|72 |[Edit Distance](./src/com/leetcode/problems/EditDistance.md)|[Java](./src/com/leetcode/submissions/EditDistance.java)|Hard|
 |71 |[Simplify Path](./src/com/leetcode/problems/SimplifyPath.md)|[Java](./src/com/leetcode/submissions/SimplifyPath.java)|Medium|
 |70 |[Climbing Stairs](./src/com/leetcode/problems/ClimbingStairs.md)|[Java](./src/com/leetcode/submissions/ClimbingStairs.java)|Easy|
 |69 |[Sqrt(x)](.)|Java 自带的函数库。不过效率高|Easy|
