@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|74 |[Search a 2D Matrix](./src/com/leetcode/problems/SearchMatrix.md)|[Java](./src/com/leetcode/submissions/SearchMatrix.java)|Medium|
 |73 |[Set Matrix Zeroes](./src/com/leetcode/problems/SetMatrixZeroes.md)|[Java](./src/com/leetcode/submissions/SetMatrixZeroes.java)|Medium|
 |72 |[Edit Distance](./src/com/leetcode/problems/EditDistance.md)|[Java](./src/com/leetcode/submissions/EditDistance.java)|Hard|
 |71 |[Simplify Path](./src/com/leetcode/problems/SimplifyPath.md)|[Java](./src/com/leetcode/submissions/SimplifyPath.java)|Medium|
