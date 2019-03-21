@@ -40,6 +40,7 @@ public class SudokuSolver {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] != '.') {
                     int num = board[i][j] - '0' - 1;
+                    //根据 i、j 计算属于第几个九宫格
                     int sIndex = i / 3 * 3 + j / 3;
                     row[i][num] = col[j][num] = square[sIndex][num] = 1;
                 }
