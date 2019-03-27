@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Create by ranzd on 2018/12/7
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@gmail.com
  */
 public class MinimumPathSum {
     public int minPathSum(int[][] grid) {
