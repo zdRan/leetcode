@@ -13,7 +13,7 @@ import java.util.List;
 public class Combinations {
     public static List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> ans = new LinkedList<>();
-        dsf(ans, new LinkedList<>(), 1, n+1, k);
+        dsf2(ans, new LinkedList<>(), 1, n + 1, k);
         return ans;
     }
 
@@ -28,6 +28,23 @@ public class Combinations {
             dsf(ans, item, i + 1, n, k);
             item.removeLast();
         }
+    }
+
+
+    private static void dsf2(List<List<Integer>> ans, LinkedList<Integer> item, int index, int n, int k) {
+        if (item.size() == k) {
+            ans.add(new ArrayList<>(item));
+            System.out.println(Arrays.deepToString(item.toArray()));
+            return;
+        }
+
+        if (n - index < (k - item.size())) {
+            return;
+        }
+        item.add(index);
+        dsf2(ans, item, index + 1, n, k);
+        item.removeLast();
+        dsf2(ans, item, index + 1, n, k);
     }
 
     public static void main(String[] args) {
