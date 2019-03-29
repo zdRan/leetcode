@@ -9,7 +9,8 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
-|76 |[Minimum Window Substring](./src/com/leetcode/problems/MinWindow.md)|[Java](./src/com/leetcode/submissions/MinWindow.java)|MinimumWindow|
+|77 |[Combinations](./src/com/leetcode/problems/Combinations.md)|[Java](./src/com/leetcode/submissions/Combinations.java)|Medium|
+|76 |[Minimum Window Substring](./src/com/leetcode/problems/MinWindow.md)|[Java](./src/com/leetcode/submissions/MinWindow.java)|Hard|
 |75 |[Sort Colors](./src/com/leetcode/problems/SortColors.md)|[Java](./src/com/leetcode/submissions/SortColors.java)|Medium|
 |74 |[Search a 2D Matrix](./src/com/leetcode/problems/SearchMatrix.md)|[Java](./src/com/leetcode/submissions/SearchMatrix.java)|Medium|
 |73 |[Set Matrix Zeroes](./src/com/leetcode/problems/SetMatrixZeroes.md)|[Java](./src/com/leetcode/submissions/SetMatrixZeroes.java)|Medium|
