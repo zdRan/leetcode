@@ -9,10 +9,11 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|76 |[Minimum Window Substring Substring](./src/com/leetcode/problems/MinWindow.md)|[Java](./src/com/leetcode/submissions/MinWindow.java)|MinimumWindow|
 |75 |[Sort Colors](./src/com/leetcode/problems/SortColors.md)|[Java](./src/com/leetcode/submissions/SortColors.java)|Medium|
 |74 |[Search a 2D Matrix](./src/com/leetcode/problems/SearchMatrix.md)|[Java](./src/com/leetcode/submissions/SearchMatrix.java)|Medium|
 |73 |[Set Matrix Zeroes](./src/com/leetcode/problems/SetMatrixZeroes.md)|[Java](./src/com/leetcode/submissions/SetMatrixZeroes.java)|Medium|
-|72 |[Edit Distance](./src/com/leetcode/problems/EditDistance.md)|[Java](./src/com/leetcode/submissions/EditDistance.java)|Hard|
+|72 |[Edit Distance](./src/com/leetcode/problems/EditDistance.md)|[Java](./src/com/leetcode/submissions/EditDistance.java)|MinimumWindow|
 |71 |[Simplify Path](./src/com/leetcode/problems/SimplifyPath.md)|[Java](./src/com/leetcode/submissions/SimplifyPath.java)|Medium|
 |70 |[Climbing Stairs](./src/com/leetcode/problems/ClimbingStairs.md)|[Java](./src/com/leetcode/submissions/ClimbingStairs.java)|Easy|
 |69 |[Sqrt(x)](.)|Java 自带的函数库。不过效率高|Easy|
