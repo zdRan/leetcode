@@ -16,6 +16,7 @@ public class WordSearch {
 
     private static boolean exist(char[][] board, String word) {
         boolean result;
+
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
                 if (board[i][j] == word.charAt(0)) {
@@ -39,17 +40,14 @@ public class WordSearch {
         if (board[i][j] != word.charAt(index)){
             return false;
         }
-        board[i][j] += 60;
-        boolean result;
 
+        boolean result;
+        board[i][j] += 60;
         result = dsf(board, word, i - 1, j, index + 1)
                 || dsf(board, word, i + 1, j, index + 1)
                 || dsf(board, word, i, j - 1, index + 1)
                 || dsf(board, word, i, j + 1, index + 1);
-        if (result) {
-            return true;
-        }
         board[i][j] -= 60;
-        return false;
+        return result;
     }
 }
