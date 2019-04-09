@@ -42,12 +42,12 @@ public class WordSearch {
         }
 
         boolean result;
-        board[i][j] += 60;
+        board[i][j] <<= 1;
         result = dsf(board, word, i - 1, j, index + 1)
                 || dsf(board, word, i + 1, j, index + 1)
                 || dsf(board, word, i, j - 1, index + 1)
                 || dsf(board, word, i, j + 1, index + 1);
-        board[i][j] -= 60;
+        board[i][j] >>= 1;
         return result;
     }
 }
