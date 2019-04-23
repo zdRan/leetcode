@@ -3,11 +3,19 @@ package com.leetcode.submissions;
 import com.leetcode.extend.ListNode;
 
 /**
+ * 86. 分隔链表
  * Create by ranzd on 2019/4/23
  *
  * @author cm.zdran@gmail.com
  */
 public class PartitionList {
+    /**
+     * 重新创建两个链表，遍历head链表，根据条件将节点分别挂到不同的两个新链表上
+     * 连接两个新链表
+     * @param head
+     * @param x
+     * @return
+     */
     public static ListNode partition(ListNode head, int x) {
         ListNode left = new ListNode(-1);
         ListNode right = new ListNode(-1);
