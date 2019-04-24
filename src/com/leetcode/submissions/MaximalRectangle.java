@@ -2,7 +2,22 @@ package com.leetcode.submissions;
 
 import java.util.Stack;
 
+/**
+ * 85. 最大矩形
+ * Create by ranzd on 2018/11/13
+ *
+ * @author cm.zdran@gmail.com
+ */
+
 public class MaximalRectangle {
+    /**
+     * 与 84 题类似，分别求出每一行的最大面积，取最大值就是结果。
+     * 每一行的行高，可以用动态规划求解
+     * dp[i][j] = matrix[i][j] = '0'?0:dp[i-1][j]+1
+     *
+     * @param matrix
+     * @return
+     */
     public int maximalRectangle(char[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0) {
             return 0;

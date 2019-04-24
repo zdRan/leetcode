@@ -1,6 +1,7 @@
 package com.leetcode.submissions;
 
 /**
+ * 79. 单词搜索
  * Create by ranzd on 2019/4/9
  *
  * @author cm.zdran@gmail.com
@@ -14,6 +15,12 @@ public class WordSearch {
         System.out.println(exist(board, "a"));
     }
 
+    /**
+     * 标准的 DSF + 回溯
+     * @param board
+     * @param word
+     * @return
+     */
     private static boolean exist(char[][] board, String word) {
         boolean result;
 

@@ -2,13 +2,21 @@
 ## src目录结构说明
 1. extend：扩展包，题目中需要的一些扩展类，例如链表题目的节点类等。
 2. mains：Main 方法测试类，所有题目的测试入口类。可以直接运行。（从28题之后所有的测试代码都在submissions下）
-3. problems：题目说明类，包含解题的一些思路和需要注意的一些测试数据。
+3. problems：题目说明类，包含解题的一些思路和需要注意的一些测试数据。（78题之后的思路都写在了代码里）
 4. submissions：提交的代码，解题的具体实现在这个包下。
 5. utils：工具类，一些测试用到的工具类，例如打印数组等。
 6. test：用于测试一些API。
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|86 |[Partition List](#)|[Java](./src/com/leetcode/submissions/PartitionList.java)|Medium|
+|85 |[Maximal Rectangle](#)|[Java](./src/com/leetcode/submissions/MaximalRectangle.java)|Hard|
+|84 |[Largest Rectangle in Histogram](#)|[Java](./src/com/leetcode/submissions/LargestRectangle.java)|Hard|
+|83 |[Remove Duplicates from Sorted List](#)|[Java](./src/com/leetcode/submissions/RemoveDuplicatesSorted.java)|Easy|
+|82 |[Remove Duplicates from Sorted List II](#)|[Java](./src/com/leetcode/submissions/RemoveDuplicatesSortedII.java)|Medium|
+|81 |[Search in Rotated Sorted Array II](#)|[Java](./src/com/leetcode/submissions/SearchArrayII.java)|Medium|
+|80 |[Remove Duplicates from Sorted Array II](#)|[Java](./src/com/leetcode/submissions/RemoveDuplicatesII.java)|Medium|
+|79 |[Word Search](#)|[Java](./src/com/leetcode/submissions/WordSearch.java)|Medium|
 |78 |[Subsets](./src/com/leetcode/problems/Subsets.md)|[Java](./src/com/leetcode/submissions/Subsets.java)|Medium|
 |77 |[Combinations](./src/com/leetcode/problems/Combinations.md)|[Java](./src/com/leetcode/submissions/Combinations.java)|Medium|
 |76 |[Minimum Window Substring](./src/com/leetcode/problems/MinWindow.md)|[Java](./src/com/leetcode/submissions/MinWindow.java)|Hard|

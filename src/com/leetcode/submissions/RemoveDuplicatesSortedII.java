@@ -3,6 +3,7 @@ package com.leetcode.submissions;
 import com.leetcode.extend.ListNode;
 
 /**
+ * 82. 删除排序链表中的重复元素 II
  * Create by ranzd on 2019/4/20
  *
  * @author cm.zdran@gmail.com
