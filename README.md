@@ -9,6 +9,11 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|91 |[Decode Ways](#)|[Java](./src/com/leetcode/submissions/DecodeWays.java)|Medium|
+|90 |[Subsets II](#)|[Java](./src/com/leetcode/submissions/SubsetsII.java)|Medium|
+|89 |[Gray Code](#)|[Java](./src/com/leetcode/submissions/GrayCode.java)|Medium|
+|88 |[Merge Sorted Array](#)|[Java](./src/com/leetcode/submissions/MergeSortedArray.java)|Easy|
+|87 |[Scramble String](#)|[Java](./src/com/leetcode/submissions/ScrambleString.java)|Hard|
 |86 |[Partition List](#)|[Java](./src/com/leetcode/submissions/PartitionList.java)|Medium|
 |85 |[Maximal Rectangle](#)|[Java](./src/com/leetcode/submissions/MaximalRectangle.java)|Hard|
 |84 |[Largest Rectangle in Histogram](#)|[Java](./src/com/leetcode/submissions/LargestRectangle.java)|Hard|
