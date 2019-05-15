@@ -9,6 +9,9 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|94 |[Binary Tree Inorder Traversal](#)|[Java](./src/com/leetcode/submissions/BinaryTreeInorderTraversal.java)|Medium|
+|93 |[Restore IP Addresses](#)|[Java](./src/com/leetcode/submissions/RestoreIPAddresses.java)|Medium|
+|92 |[Reverse Linked List II](#)|[Java](./src/com/leetcode/submissions/ReverseLinkedListII.java)|Medium|
 |91 |[Decode Ways](#)|[Java](./src/com/leetcode/submissions/DecodeWays.java)|Medium|
 |90 |[Subsets II](#)|[Java](./src/com/leetcode/submissions/SubsetsII.java)|Medium|
 |89 |[Gray Code](#)|[Java](./src/com/leetcode/submissions/GrayCode.java)|Medium|
