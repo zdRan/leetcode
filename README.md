@@ -9,6 +9,8 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|96 |[Unique Binary Search Trees](#)|[Java](./src/com/leetcode/submissions/UniqueBST.java)|Medium|
+|95 |[Unique Binary Search Trees II](#)|[Java](./src/com/leetcode/submissions/UniqueBSTII.java)|Medium|
 |94 |[Binary Tree Inorder Traversal](#)|[Java](./src/com/leetcode/submissions/BinaryTreeInorderTraversal.java)|Medium|
 |93 |[Restore IP Addresses](#)|[Java](./src/com/leetcode/submissions/RestoreIPAddresses.java)|Medium|
 |92 |[Reverse Linked List II](#)|[Java](./src/com/leetcode/submissions/ReverseLinkedListII.java)|Medium|
