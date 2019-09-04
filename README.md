@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|99 |[Recover Binary Search Tree](#)|[Java](./src/com/leetcode/submissions/RecoverBST.java)|Hard|
 |98 |[Validate Binary Search Tree](#)|[Java](./src/com/leetcode/submissions/ValidateBST.java)|Medium|
 |97 |[Interleaving String](#)|[Java](./src/com/leetcode/submissions/InterleavingString.java)|Hard|
 |96 |[Unique Binary Search Trees](#)|[Java](./src/com/leetcode/submissions/UniqueBST.java)|Medium|
