@@ -13,6 +13,19 @@ public class InterleavingString {
         return dsf(s1, 0, s2, 0, s3, 0);
     }
 
+    /**
+     * 类似于 归并排序的拟操作。如果 s3 的某个字符，既不能属于 s1,也不能属于 s2,则返回 false。
+     * <p>
+     * 递归遍历 s3 ，如果当前字符属于 s1,或者 s2，递归下一个字符。
+     *
+     * @param s1
+     * @param i1
+     * @param s2
+     * @param i2
+     * @param s3
+     * @param i3
+     * @return
+     */
     private static boolean dsf(String s1, int i1, String s2, int i2, String s3, int i3) {
         if (i3 == s3.length()) {
             return true;
