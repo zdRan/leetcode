@@ -9,6 +9,10 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|104 |[Maximum Depth of Binary Tree](#)|[Java](./src/com/leetcode/submissions/MaximumDepthOfBT.java)|Easy|
+|103 |[Binary Tree Zigzag Level Order Traversal](#)|[Java](./src/com/leetcode/submissions/BTZigzagLevelOrderTraversal.java)|Medium|
+|102 |[Binary Tree Level Order Traversal](#)|[Java](./src/com/leetcode/submissions/BTLevelOrderTraversal.java)|Medium|
+|101 |[Symmetric Tree](#)|[Java](./src/com/leetcode/submissions/SymmetricTree.java)|Easy|
 |100 |[Same Tree](#)|[Java](./src/com/leetcode/submissions/SameTree.java)|Easy|
 |99 |[Recover Binary Search Tree](#)|[Java](./src/com/leetcode/submissions/RecoverBST.java)|Hard|
 |98 |[Validate Binary Search Tree](#)|[Java](./src/com/leetcode/submissions/ValidateBST.java)|Medium|
@@ -40,7 +44,7 @@
 |72 |[Edit Distance](./src/com/leetcode/problems/EditDistance.md)|[Java](./src/com/leetcode/submissions/EditDistance.java)|MinimumWindow|
 |71 |[Simplify Path](./src/com/leetcode/problems/SimplifyPath.md)|[Java](./src/com/leetcode/submissions/SimplifyPath.java)|Medium|
 |70 |[Climbing Stairs](./src/com/leetcode/problems/ClimbingStairs.md)|[Java](./src/com/leetcode/submissions/ClimbingStairs.java)|Easy|
-|69 |[Sqrt(x)](.)|Java 自带的函数库。不过效率高|Easy|
+|69 |[Sqrt(x)](.)|Java 自带的函数库。不过效率不高|Easy|
 |68 |[Text Justification](./src/com/leetcode/problems/TextJustification.md)|[Java](./src/com/leetcode/submissions/TextJustification.java)|Hard|
 |67 |[Add Binary](./src/com/leetcode/problems/AddBinary.md)|[Java](./src/com/leetcode/submissions/AddBinary.java)|Hard|
 |66 |[Plus One](./src/com/leetcode/problems/PlusOne.md)|[Java](./src/com/leetcode/submissions/PlusOne.java)|Easy|
