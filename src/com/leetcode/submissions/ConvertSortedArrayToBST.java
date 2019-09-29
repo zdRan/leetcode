@@ -12,6 +12,13 @@ public class ConvertSortedArrayToBST {
        return dsf(nums, 0, nums.length - 1);
     }
 
+    /**
+     * 递归 + 分治
+     * @param nums
+     * @param left
+     * @param right
+     * @return
+     */
     private TreeNode dsf(int[] nums, int left, int right) {
         if (left > right) {
             return null;
