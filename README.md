@@ -9,6 +9,7 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|113 |[Flatten Binary Tree to Linked List](#)|[Java](./src/com/leetcode/submissions/FlattenBTToLinkedList.java)|Medium|
 |113 |[Path Sum II](#)|[Java](./src/com/leetcode/submissions/PathSumII.java)|Medium|
 |112 |[Path Sum](#)|[Java](./src/com/leetcode/submissions/PathSum.java)|Easy|
 |111 |[Minimum Depth of Binary Tree](#)|[Java](./src/com/leetcode/submissions/MinimumDepthOfBT.java)|Easy|
