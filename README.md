@@ -9,6 +9,9 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|120 |[Triangle](#)|[Java](./src/com/leetcode/submissions/Triangle.java)|Medium|
+|119 |[Pascal's Triangle II](#)|[Java](./src/com/leetcode/submissions/PascalsTriangleII.java)|Easy|
+|118 |[Pascal's Triangle](#)|[Java](./src/com/leetcode/submissions/PascalsTriangle.java)|Easy|
 |117 |[Populating Next Right Pointers in Each Node II](#)|[Java](./src/com/leetcode/submissions/PopulatingNextRightPointersII.java)|Medium|
 |116 |[Populating Next Right Pointers in Each Node](#)|[Java](./src/com/leetcode/submissions/PopulatingNextRightPointers.java)|Medium|
 |115 |[Distinct Subsequences](#)|[Java](./src/com/leetcode/submissions/DistinctSubsequences.java)|Hard|
