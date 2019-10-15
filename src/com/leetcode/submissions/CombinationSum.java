@@ -15,12 +15,12 @@ public class CombinationSum {
         List<Integer> item = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
 
-        dsf(0, candidates, target, item, ans);
+        dfs(0, candidates, target, item, ans);
 
         return ans;
     }
 
-    private static void dsf(int index, int[] arr, int target, List<Integer> item, List<List<Integer>> ans) {
+    private static void dfs(int index, int[] arr, int target, List<Integer> item, List<List<Integer>> ans) {
         for (int i = index; i < arr.length; i++) {
 
             if (target < 0) {
@@ -31,7 +31,7 @@ public class CombinationSum {
                 return;
             }
             item.add(arr[i]);
-            dsf(i, arr, target - arr[i], item, ans);
+            dfs(i, arr, target - arr[i], item, ans);
             item.remove(item.size() - 1);
         }
     }

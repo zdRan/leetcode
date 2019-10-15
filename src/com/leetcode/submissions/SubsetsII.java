@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class SubsetsII {
 
-    private static void dsf(List<List<Integer>> ans, LinkedList<Integer> item, int count, int[] nums, int index,
+    private static void dfs(List<List<Integer>> ans, LinkedList<Integer> item, int count, int[] nums, int index,
                             boolean[] visited) {
         if (item.size() == count) {
             ans.add(new ArrayList<>(item));
@@ -27,7 +27,7 @@ public class SubsetsII {
             }
             item.add(nums[i]);
             visited[i] = true;
-            dsf(ans, item, count, nums, i + 1, visited);
+            dfs(ans, item, count, nums, i + 1, visited);
             visited[i] = false;
             item.removeLast();
         }
@@ -40,7 +40,7 @@ public class SubsetsII {
         List<List<Integer>> ans = new LinkedList<>();
         boolean[] visited = new boolean[nums.length];
         for (int i = 0; i <= nums.length; i++) {
-            dsf(ans, new LinkedList<>(), i, nums, 0, visited);
+            dfs(ans, new LinkedList<>(), i, nums, 0, visited);
         }
         return ans;
     }

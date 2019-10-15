@@ -13,12 +13,12 @@ public class Permutations {
         boolean[] flags = new boolean[nums.length];
         List<Integer> ansItem = new ArrayList<>();
         List<List<Integer>> result = new ArrayList<>();
-        dsf(flags, nums, ansItem, result);
+        dfs(flags, nums, ansItem, result);
 
         return result;
     }
 
-    private static void dsf(boolean[] flags, int[] nums, List<Integer> ansItem, List<List<Integer>> result) {
+    private static void dfs(boolean[] flags, int[] nums, List<Integer> ansItem, List<List<Integer>> result) {
         if (ansItem.size() == flags.length) {
             List<Integer> ans = new ArrayList<>(ansItem);
             result.add(ans);
@@ -28,7 +28,7 @@ public class Permutations {
             if (!flags[i]) {
                 ansItem.add(nums[i]);
                 flags[i] = true;
-                dsf(flags, nums, ansItem, result);
+                dfs(flags, nums, ansItem, result);
                 flags[i] = false;
                 ansItem.remove(ansItem.size() - 1);
             }

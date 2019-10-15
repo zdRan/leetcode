@@ -19,10 +19,10 @@ public class WildcardMatching {
             }
             return true;
         }
-        return dsf(s, p, 0, 0);
+        return dfs(s, p, 0, 0);
     }
 
-    private static boolean dsf(String s, String p, int sIndex, int pIndex) {
+    private static boolean dfs(String s, String p, int sIndex, int pIndex) {
         if (pIndex == p.length()) {
             //正则以 * 号结尾
             if ('*' == p.charAt(pIndex - 1)) {
@@ -43,7 +43,7 @@ public class WildcardMatching {
         if ('*' == p.charAt(pIndex)) {
             boolean flag = false;
             for (int i = sIndex; i < s.length(); i++) {
-                flag = dsf(s, p, i, pIndex + 1);
+                flag = dfs(s, p, i, pIndex + 1);
                 if (flag) {
                     break;
                 }
@@ -51,10 +51,10 @@ public class WildcardMatching {
             return flag;
         }
         if ('?' == p.charAt(pIndex)) {
-            return dsf(s, p, sIndex + 1, pIndex + 1);
+            return dfs(s, p, sIndex + 1, pIndex + 1);
         }
         if (s.charAt(sIndex) == p.charAt(pIndex)) {
-            return dsf(s, p, sIndex + 1, pIndex + 1);
+            return dfs(s, p, sIndex + 1, pIndex + 1);
         } else {
             return false;
         }

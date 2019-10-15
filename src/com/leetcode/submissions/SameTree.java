@@ -10,7 +10,7 @@ import com.sun.org.apache.regexp.internal.RE;
  */
 public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        return dsf(p, q);
+        return dfs(p, q);
     }
 
     /**
@@ -19,7 +19,7 @@ public class SameTree {
      * @param qRoot
      * @return
      */
-    private boolean dsf(TreeNode pRoot, TreeNode qRoot) {
+    private boolean dfs(TreeNode pRoot, TreeNode qRoot) {
         if (pRoot == null && qRoot == null) {
             return true;
         }
@@ -31,12 +31,12 @@ public class SameTree {
             return false;
         }
 
-        boolean left = dsf(pRoot.left, qRoot.left);
+        boolean left = dfs(pRoot.left, qRoot.left);
         //剪枝，如果左子树已经不相同，直接返回
         if (!left) {
             return false;
         }
-        return dsf(pRoot.right, qRoot.right);
+        return dfs(pRoot.right, qRoot.right);
     }
 
 }

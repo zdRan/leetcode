@@ -16,7 +16,7 @@ public class WordSearch {
     }
 
     /**
-     * 标准的 DSF + 回溯
+     * 标准的 dfs + 回溯
      * @param board
      * @param word
      * @return
@@ -27,7 +27,7 @@ public class WordSearch {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
                 if (board[i][j] == word.charAt(0)) {
-                    result = dsf(board, word, i, j, 0);
+                    result = dfs(board, word, i, j, 0);
                     if (result) {
                         return true;
                     }
@@ -37,7 +37,7 @@ public class WordSearch {
         return false;
     }
 
-    private static boolean dsf(char[][] board, String word, int i, int j, int index) {
+    private static boolean dfs(char[][] board, String word, int i, int j, int index) {
         if (index == word.length()) {
             return true;
         }
@@ -50,10 +50,10 @@ public class WordSearch {
 
         boolean result;
         board[i][j] <<= 1;
-        result = dsf(board, word, i - 1, j, index + 1)
-                || dsf(board, word, i + 1, j, index + 1)
-                || dsf(board, word, i, j - 1, index + 1)
-                || dsf(board, word, i, j + 1, index + 1);
+        result = dfs(board, word, i - 1, j, index + 1)
+                || dfs(board, word, i + 1, j, index + 1)
+                || dfs(board, word, i, j - 1, index + 1)
+                || dfs(board, word, i, j + 1, index + 1);
         board[i][j] >>= 1;
         return result;
     }

@@ -14,7 +14,7 @@ public class SymmetricTree {
             return true;
         }
         //同时递归 root 节点的 两个子树
-        return dsf(root.left, root.right);
+        return dfs(root.left, root.right);
     }
 
     /**
@@ -23,7 +23,7 @@ public class SymmetricTree {
      * @param right
      * @return
      */
-    private boolean dsf(TreeNode left, TreeNode right) {
+    private boolean dfs(TreeNode left, TreeNode right) {
         if (left == null && right == null) {
             return true;
         }
@@ -33,6 +33,6 @@ public class SymmetricTree {
         if (left.val != right.val) {
             return false;
         }
-        return dsf(left.left, right.right) && dsf(left.right, right.left);
+        return dfs(left.left, right.right) && dfs(left.right, right.left);
     }
 }

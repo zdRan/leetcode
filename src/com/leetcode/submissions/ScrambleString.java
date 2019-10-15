@@ -11,11 +11,11 @@ public class ScrambleString {
         if (s1.length() != s2.length()) {
             return false;
         }
-        return dsf(s1.toCharArray(), 0, s1.length(),
+        return dfs(s1.toCharArray(), 0, s1.length(),
                 s2.toCharArray(), 0, s2.length());
     }
 
-    public static boolean dsf(char[] s1, int s1Start, int s1End,
+    public static boolean dfs(char[] s1, int s1Start, int s1End,
                               char[] s2, int s2Start, int s2End) {
         if (s1End - s1Start <= 0 && s2End - s2Start <= 0) {
             return true;
@@ -31,12 +31,12 @@ public class ScrambleString {
         }
         for (int i = 1; i < s1End-s1Start; i++) {
 
-            if (dsf(s1, s1Start, s1Start + i, s2, s2Start, s2Start + i)
-                    && dsf(s1, s1Start + i, s1End, s2, s2Start + i, s2End)) {
+            if (dfs(s1, s1Start, s1Start + i, s2, s2Start, s2Start + i)
+                    && dfs(s1, s1Start + i, s1End, s2, s2Start + i, s2End)) {
                 return true;
             }
-            if (dsf(s1, s1Start, s1Start + i, s2, s2End - i, s2End)
-                    && dsf(s1, s1Start + i, s1End, s2, s2Start, s2End - i)) {
+            if (dfs(s1, s1Start, s1Start + i, s2, s2End - i, s2End)
+                    && dfs(s1, s1Start + i, s1End, s2, s2Start, s2End - i)) {
 
                 return true;
             }

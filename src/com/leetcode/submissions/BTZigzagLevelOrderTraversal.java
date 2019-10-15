@@ -14,7 +14,7 @@ import java.util.List;
 public class BTZigzagLevelOrderTraversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<LinkedList<Integer>> result = new ArrayList<>();
-        dsf(result, root, 0);
+        dfs(result, root, 0);
         List<List<Integer>> ans = new ArrayList<>();
         for (LinkedList l : result) {
             ans.add(new ArrayList<>(l));
@@ -27,7 +27,7 @@ public class BTZigzagLevelOrderTraversal {
      * @param root
      * @param level
      */
-    private void dsf(List<LinkedList<Integer>> result, TreeNode root, int level){
+    private void dfs(List<LinkedList<Integer>> result, TreeNode root, int level){
         if (root == null) {
             return;
         }
@@ -43,7 +43,7 @@ public class BTZigzagLevelOrderTraversal {
                 result.get(level).addFirst(root.val);
             }
         }
-        dsf(result, root.left, level+1);
-        dsf(result, root.right, level + 1);
+        dfs(result, root.left, level+1);
+        dfs(result, root.right, level + 1);
     }
 }

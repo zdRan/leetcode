@@ -12,11 +12,11 @@ import java.util.List;
 public class RestoreIPAddresses {
     public static List<String> restoreIpAddresses(String s) {
         List<String> ans = new LinkedList<>();
-        dsf(s, ans, new StringBuilder(), 0, 0);
+        dfs(s, ans, new StringBuilder(), 0, 0);
         return ans;
     }
 
-    private static void dsf(String s, List<String> ans, StringBuilder ansItem, int pos, int ipIndex) {
+    private static void dfs(String s, List<String> ans, StringBuilder ansItem, int pos, int ipIndex) {
         //剪枝，s 剩余的长度要在 剩余的ip地址范围内
         if (s.length() - pos < 4 - ipIndex) {
             return;
@@ -33,19 +33,19 @@ public class RestoreIPAddresses {
         }
         if (pos < s.length()) {
             ansItem.append(s.charAt(pos)).append(".");
-            dsf(s, ans, ansItem, pos + 1, ipIndex + 1);
+            dfs(s, ans, ansItem, pos + 1, ipIndex + 1);
             ansItem.delete(ansItem.length() - 2, ansItem.length());
         }
         if (pos + 1 < s.length() && Integer.valueOf(s.substring(pos, pos + 2)) > 9) {
 
             ansItem.append(s.substring(pos, pos + 2)).append(".");
-            dsf(s, ans, ansItem, pos + 2, ipIndex + 1);
+            dfs(s, ans, ansItem, pos + 2, ipIndex + 1);
             ansItem.delete(ansItem.length() - 3, ansItem.length());
         }
         if (pos + 2 < s.length() && Integer.valueOf(s.substring(pos, pos + 3)) < 256
                 && Integer.valueOf(s.substring(pos, pos + 3)) >99) {
             ansItem.append(s.substring(pos, pos + 3)).append(".");
-            dsf(s, ans, ansItem, pos + 3, ipIndex + 1);
+            dfs(s, ans, ansItem, pos + 3, ipIndex + 1);
             ansItem.delete(ansItem.length() - 4, ansItem.length());
         }
     }

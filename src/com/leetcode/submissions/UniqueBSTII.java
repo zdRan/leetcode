@@ -17,7 +17,7 @@ public class UniqueBSTII {
         if (n == 0) {
             return new LinkedList<>();
         }
-        return dsf(1, n);
+        return dfs(1, n);
     }
 
     /**
@@ -30,7 +30,7 @@ public class UniqueBSTII {
      * @param end
      * @return
      */
-    private static List<TreeNode> dsf(int start, int end) {
+    private static List<TreeNode> dfs(int start, int end) {
         List<TreeNode> result = new LinkedList<>();
         // 注意：需要把 null 添加的集合中
         if (start > end) {
@@ -39,10 +39,10 @@ public class UniqueBSTII {
         }
 
         for (int i = start; i <= end; i++) {
-            // dsf 左子树
-            List<TreeNode> leftTree = dsf(start, i - 1);
-            // dsf 右子树
-            List<TreeNode> rightTree = dsf(i + 1, end);
+            // dfs 左子树
+            List<TreeNode> leftTree = dfs(start, i - 1);
+            // dfs 右子树
+            List<TreeNode> rightTree = dfs(i + 1, end);
             // 组合所有情况
             for (TreeNode node : leftTree) {
                 for (TreeNode treeNode : rightTree) {

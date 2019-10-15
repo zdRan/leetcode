@@ -17,7 +17,7 @@ public class ConstructBinaryTree2 {
         for (int i = 0; i < inorder.length; i++) {
             index.put(inorder[i], i);
         }
-        return dsf(index, inorder, 0, inorder.length , postorder, 0, postorder.length );
+        return dfs(index, inorder, 0, inorder.length , postorder, 0, postorder.length );
     }
 
 
@@ -35,7 +35,7 @@ public class ConstructBinaryTree2 {
      * @param ir
      * @return
      */
-    private static TreeNode dsf(Map<Integer, Integer> index, int[] inorder, int il, int ir, int[] postorder, int pl, int pr) {
+    private static TreeNode dfs(Map<Integer, Integer> index, int[] inorder, int il, int ir, int[] postorder, int pl, int pr) {
         if (pl < 0 || il >= inorder.length || pl >= pr || il > ir) {
 
             return null;
@@ -43,8 +43,8 @@ public class ConstructBinaryTree2 {
         TreeNode root = new TreeNode(postorder[pr-1]);
         int i = index.get(postorder[pr-1]);
         //注意边界问题，每次传递到下一层的区间是 左闭右开 [i+1,ir),即下层处理时不包含右边界
-        root.right = dsf(index, inorder, i + 1, ir, postorder, pr - (ir - i), pr - 1);
-        root.left = dsf(index, inorder, il, i, postorder, pl, pr -(ir - i));
+        root.right = dfs(index, inorder, i + 1, ir, postorder, pr - (ir - i), pr - 1);
+        root.left = dfs(index, inorder, il, i, postorder, pl, pr -(ir - i));
         return root;
     }
 

@@ -106,10 +106,10 @@ public class TestMain {
     public static String reverseParentheses(String s) {
         int ls = s.indexOf('(');
         int re = s.lastIndexOf(')');
-        return s.substring(0, ls) + dsf(ls, re, s.substring(ls, re)) + s.substring(re);
+        return s.substring(0, ls) + dfs(ls, re, s.substring(ls, re)) + s.substring(re);
     }
 
-    private static String dsf(int ls,int re,String s) {
+    private static String dfs(int ls,int re,String s) {
         int le = s.indexOf('(');
         int rs = s.lastIndexOf(')');
 
@@ -123,9 +123,9 @@ public class TestMain {
         }
         count++;
         if (count % 2 == 0) {
-            return s.substring(ls, le) + dsf(le, rs, s.substring(le, rs)) + s.substring(rs, re);
+            return s.substring(ls, le) + dfs(le, rs, s.substring(le, rs)) + s.substring(rs, re);
         }else {
-            return reverse(s.substring(rs, re)) + dsf(le, rs, s.substring(le, rs)) + reverse(s.substring(ls, le));
+            return reverse(s.substring(rs, re)) + dfs(le, rs, s.substring(le, rs)) + reverse(s.substring(ls, le));
         }
     }
 

@@ -17,7 +17,7 @@ public class ConstructBinaryTree {
         for (int i = 0; i < inorder.length; i++) {
             index.put(inorder[i], i);
         }
-        return dsf(index,preorder, 0,preorder.length,inorder, 0, preorder.length);
+        return dfs(index,preorder, 0,preorder.length,inorder, 0, preorder.length);
 
     }
 
@@ -35,14 +35,14 @@ public class ConstructBinaryTree {
      * @param ir
      * @return
      */
-    private static TreeNode dsf(Map<Integer, Integer> index, int[] preorder, int pl, int pr, int[] inorder, int il, int ir) {
+    private static TreeNode dfs(Map<Integer, Integer> index, int[] preorder, int pl, int pr, int[] inorder, int il, int ir) {
         if (pl >= pr) {
             return null;
         }
         TreeNode root = new TreeNode(preorder[pl]);
         int i = index.get(preorder[pl]);
-        root.left = dsf(index,preorder, pl + 1, pl + (i - il) + 1, inorder, il, i);
-        root.right = dsf(index,preorder, pl + (i - il) + 1, pr, inorder, i + 1, ir);
+        root.left = dfs(index,preorder, pl + 1, pl + (i - il) + 1, inorder, il, i);
+        root.right = dfs(index,preorder, pl + (i - il) + 1, pr, inorder, i + 1, ir);
         return root;
     }
 

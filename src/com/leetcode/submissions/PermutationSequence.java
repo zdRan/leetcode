@@ -15,11 +15,11 @@ public class PermutationSequence {
             number[i] = i;
         }
         StringBuilder sb = new StringBuilder();
-        dsf(n, k, fact, number, sb);
+        dfs(n, k, fact, number, sb);
         return sb.toString();
     }
 
-    private static void dsf(int n, int k, int[] fact, int[] number, StringBuilder ans) {
+    private static void dfs(int n, int k, int[] fact, int[] number, StringBuilder ans) {
         if (n == 1) {
             for (int i = 0; i <= 9; i++) {
                 if (number[i] != 0) {
@@ -43,7 +43,7 @@ public class PermutationSequence {
         }
         ans.append(number[i - 1]);
         number[i - 1] = 0;
-        dsf(n - 1, k, fact, number, ans);
+        dfs(n - 1, k, fact, number, ans);
     }
 
     public static void main(String[] args) {

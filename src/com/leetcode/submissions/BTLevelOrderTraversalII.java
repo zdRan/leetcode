@@ -14,7 +14,7 @@ import java.util.List;
 public class BTLevelOrderTraversalII {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> result = new LinkedList<>();
-        dsf(root, 0, result);
+        dfs(root, 0, result);
 
         for (int left = 0, right = result.size() - 1; left < right; left++, right--) {
             List<Integer> temp = result.get(left);
@@ -24,7 +24,7 @@ public class BTLevelOrderTraversalII {
         return result;
     }
 
-    private void dsf(TreeNode root, int level, List<List<Integer>> result) {
+    private void dfs(TreeNode root, int level, List<List<Integer>> result) {
         if (root == null) {
             return;
         }
@@ -32,7 +32,7 @@ public class BTLevelOrderTraversalII {
             result.add(new LinkedList<>());
         }
         result.get(level).add(root.val);
-        dsf(root.left, level + 1, result);
-        dsf(root.right, level + 1, result);
+        dfs(root.left, level + 1, result);
+        dfs(root.right, level + 1, result);
     }
 }

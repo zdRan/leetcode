@@ -9,18 +9,18 @@ import com.leetcode.extend.TreeNode;
  */
 public class BalancedBT {
     public boolean isBalanced(TreeNode root) {
-        return dsf(root) != -1;
+        return dfs(root) != -1;
     }
-    private int dsf(TreeNode root){
+    private int dfs(TreeNode root){
         if (root == null){
             return 0;
         }
-        int left = dsf(root.left);
+        int left = dfs(root.left);
         //说明左子树不是平衡二叉树
         if (left == -1) {
             return left;
         }
-        int right = dsf(root.right);
+        int right = dfs(root.right);
         //说明右子树不是平衡二叉树
         if (right == -1) {
             return right;

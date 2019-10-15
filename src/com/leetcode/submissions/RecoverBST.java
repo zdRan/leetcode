@@ -13,7 +13,7 @@ public class RecoverBST {
     private TreeNode min = new TreeNode(Integer.MIN_VALUE);
 
     public void recoverTree(TreeNode root) {
-        dsf(root);
+        dfs(root);
         int temp = left.val;
         left.val = right.val;
         right.val = temp;
@@ -24,11 +24,11 @@ public class RecoverBST {
      *
      * @param root
      */
-    private void dsf(TreeNode root) {
+    private void dfs(TreeNode root) {
         if (root == null) {
             return;
         }
-        dsf(root.left);
+        dfs(root.left);
 
         if (root.val < min.val ) {
             if (left == null) {
@@ -39,7 +39,7 @@ public class RecoverBST {
         }else {
             min = root;
         }
-        dsf(root.right);
+        dfs(root.right);
     }
 
     public static void main(String[] args) {
