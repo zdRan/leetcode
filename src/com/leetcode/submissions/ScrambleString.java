@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 87. 扰乱字符串
  * Create by ranzd on 2019/4/23
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class ScrambleString {
     public static boolean isScramble(String s1, String s2) {

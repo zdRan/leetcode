@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Create by ranzd on 2018/1/27
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class SearchRange {
     public int[] searchRange(int[] nums, int target) {

@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Create by ranzhendong on 2019-10-10 16:57
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PascalsTriangle {
     public static List<List<Integer>> generate(int numRows) {

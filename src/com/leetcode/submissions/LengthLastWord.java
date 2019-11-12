@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Create by ranzd on 2018/11/19
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@foxmail.com
  */
 public class LengthLastWord {
     public static int lengthOfLastWord(String s) {

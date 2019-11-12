@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Create by ranzhendong on 2019-09-30 11:49
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PathSumII {
     public static List<List<Integer>> pathSum(TreeNode root, int sum) {

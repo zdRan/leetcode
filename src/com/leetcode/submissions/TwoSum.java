@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2017/10/20
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {

@@ -6,7 +6,7 @@ import com.leetcode.extend.ListNode;
  * 86. 分隔链表
  * Create by ranzd on 2019/4/23
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class PartitionList {
     /**

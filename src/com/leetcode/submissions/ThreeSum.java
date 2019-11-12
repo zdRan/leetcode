@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2017/11/30
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {

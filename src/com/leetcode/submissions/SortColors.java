@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 双指针法。0往左边排，2 往右边排，1 不做处理，当 0 和 2 有序时 1也有序
  * Create by ranzd on 2019/2/12
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class SortColors {
     public static void sortColors(int[] nums) {

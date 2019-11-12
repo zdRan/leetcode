@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Create by ranzhendong on 2019-09-26 11:23
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class ConstructBinaryTree2 {
     public static TreeNode buildTree(int[] inorder, int[] postorder) {

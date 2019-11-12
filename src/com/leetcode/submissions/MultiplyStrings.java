@@ -6,7 +6,7 @@ import com.leetcode.utils.Show;
  * 43. Multiply Strings
  * Create by zdRan on 2018/5/11
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class MultiplyStrings {
     public static String multiply(String num1, String num2) {

@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Create by ranzhendong on 2019-10-14 19:35
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class ValidPalindrome {
     public static boolean isPalindrome(String s) {

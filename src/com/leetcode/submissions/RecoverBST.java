@@ -6,7 +6,7 @@ import com.leetcode.utils.TreeUtil;
 /**
  * Create by ranzd on 2019-09-04 11:26
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class RecoverBST {
     private TreeNode left, right;

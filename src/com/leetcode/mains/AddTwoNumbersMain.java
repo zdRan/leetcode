@@ -6,7 +6,7 @@ import com.leetcode.submissions.AddTwoNumbers;
 /**
  * Create by ranzd on 2017/10/20
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class AddTwoNumbersMain {
     public static void main(String[] args) {

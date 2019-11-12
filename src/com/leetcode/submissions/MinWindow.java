@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Create by ranzd on 2019/2/27
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class MinWindow {
     public static String minWindow(String s, String t) {

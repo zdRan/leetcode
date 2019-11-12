@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2018/11/19
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class InsertInterval {
     public List<Interval> insert(List<Interval> intervals, Interval newInterval) {

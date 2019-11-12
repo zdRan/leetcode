@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 80. 删除排序数组中的重复项 II
  * Create by ranzd on 2019/4/10
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class RemoveDuplicatesII {
     /**

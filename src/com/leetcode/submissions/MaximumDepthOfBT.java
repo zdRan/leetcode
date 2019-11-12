@@ -5,7 +5,7 @@ import com.leetcode.extend.TreeNode;
 /**
  * Create by ranzhendong on 2019-09-13 16:28
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class MaximumDepthOfBT {
     /**

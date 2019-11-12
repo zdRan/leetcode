@@ -5,7 +5,7 @@ import com.leetcode.extend.ListNode;
 /**
  * Create by ranzd on 2017/12/11
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class SwapNodes {
     public ListNode swapPairs(ListNode head) {

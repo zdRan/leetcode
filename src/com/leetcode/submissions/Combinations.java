@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2019/3/29
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class Combinations {
     public static List<List<Integer>> combine(int n, int k) {

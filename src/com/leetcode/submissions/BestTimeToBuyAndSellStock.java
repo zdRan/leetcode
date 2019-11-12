@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Create by ranzhendong on 2019-10-12 11:06
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class BestTimeToBuyAndSellStock {
     /**

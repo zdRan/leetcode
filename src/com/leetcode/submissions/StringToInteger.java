@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 /**
  * Create by ranzd on 2017/11/21
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class StringToInteger {
     /**

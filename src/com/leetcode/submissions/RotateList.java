@@ -5,7 +5,7 @@ import com.leetcode.extend.ListNode;
 /**
  * Create by ranzd on 2018/11/24
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class RotateList {
 

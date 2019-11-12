@@ -5,7 +5,7 @@ import com.leetcode.extend.TreeNode;
 /**
  * Create by ranzhendong on 2019-09-30 11:24
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PathSum {
     public boolean hasPathSum(TreeNode root, int sum) {

@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Create by ranzhendong on 2019-10-11 17:28
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class Triangle {
 

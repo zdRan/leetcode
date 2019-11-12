@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2017/12/5
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class FourSumMain {
     public static void main(String[] args) {

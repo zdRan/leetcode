@@ -4,7 +4,7 @@ package com.leetcode.utils;
  * 用于打印结果
  * Create by ranzd on 2017/10/22
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class Show {
     public static void showString(String str) {

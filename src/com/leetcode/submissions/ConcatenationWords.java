@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Create by ranzd on 2017/12/27
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class ConcatenationWords {
     public static List<Integer> findSubstring(String s, String[] words) {

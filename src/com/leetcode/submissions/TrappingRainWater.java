@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 第 42 题 收集雨水
  * Create by zdRan on 2018/5/8
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class TrappingRainWater {
 

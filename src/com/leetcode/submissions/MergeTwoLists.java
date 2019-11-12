@@ -5,7 +5,7 @@ import com.leetcode.extend.ListNode;
 /**
  * Create by ranzd on 2017/12/7
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class MergeTwoLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

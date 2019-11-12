@@ -10,7 +10,7 @@ import java.util.List;
  * 95. 不同的二叉搜索树 II
  * Create by ranzd on 2019-08-29 14:58
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class UniqueBSTII {
     public static List<TreeNode> generateTrees(int n) {

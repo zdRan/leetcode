@@ -3,7 +3,7 @@ package com.leetcode.extend;
 /**
  * Create by ranzd on 2019/5/15
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class TreeNode {
     public int val;

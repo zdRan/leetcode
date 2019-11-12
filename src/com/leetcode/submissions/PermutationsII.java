@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2018/6/26
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class PermutationsII {
     public static List<List<Integer>> permuteUnique(int[] nums) {

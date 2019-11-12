@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * Create by ranzd on 2017/12/12
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class ReverseNodes {
     public ListNode reverseKGroup(ListNode head, int k) {

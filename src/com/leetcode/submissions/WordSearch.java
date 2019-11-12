@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 79. 单词搜索
  * Create by ranzd on 2019/4/9
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class WordSearch {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ import com.sun.org.apache.regexp.internal.RE;
 /**
  * Create by ranzd on 2019-09-05 14:53
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {

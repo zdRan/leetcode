@@ -5,7 +5,7 @@ import com.leetcode.extend.Node;
 /**
  * Create by ranzhendong on 2019-10-10 11:34
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PopulatingNextRightPointersII {
     public Node connect(Node root) {

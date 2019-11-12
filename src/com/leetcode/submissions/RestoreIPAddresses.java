@@ -7,7 +7,7 @@ import java.util.List;
  * 93. 复原IP地址
  * Create by ranzd on 2019/5/5
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class RestoreIPAddresses {
     public static List<String> restoreIpAddresses(String s) {

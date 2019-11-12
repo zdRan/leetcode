@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Create by ranzhendong on 2019-09-13 16:08
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class BTZigzagLevelOrderTraversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {

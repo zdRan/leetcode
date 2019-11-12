@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2018/6/21
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class Permutations {
     public static List<List<Integer>> permute(int[] nums) {

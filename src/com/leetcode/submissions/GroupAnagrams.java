@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Create by ranzd on 2018/11/13
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class GroupAnagrams {
     public static List<List<String>> groupAnagrams(String[] strs) {

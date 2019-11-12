@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2018/11/13
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class NQueens {
     public static List<List<String>> solveNQueens(int n) {

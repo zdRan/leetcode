@@ -5,7 +5,7 @@ import com.leetcode.extend.TreeNode;
 /**
  * Create by ranzhendong on 2019-09-29 18:50
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class ConvertSortedArrayToBST {
     public TreeNode sortedArrayToBST(int[] nums) {

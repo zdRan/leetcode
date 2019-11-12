@@ -3,7 +3,7 @@ package com.leetcode.extend;
 /**
  * Create by ranzhendong on 2019-10-10 11:13
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class Node {
     public int val;

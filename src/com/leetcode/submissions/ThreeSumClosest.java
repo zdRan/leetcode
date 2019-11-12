@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Create by ranzd on 2017/11/30
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class ThreeSumClosest {
     int abs = Integer.MAX_VALUE;

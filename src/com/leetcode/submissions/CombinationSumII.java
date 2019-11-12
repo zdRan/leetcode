@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2018/2/1
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class CombinationSumII {
     public static List<List<Integer>> combinationSum2(int[] candidates, int target) {

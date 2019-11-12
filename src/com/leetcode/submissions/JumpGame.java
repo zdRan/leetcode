@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 45. Jump Game II
  * Create by ranzd on 2018/6/14
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class JumpGame {
     public static int jump(int[] nums) {

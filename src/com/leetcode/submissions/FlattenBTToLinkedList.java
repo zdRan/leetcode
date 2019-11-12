@@ -5,7 +5,7 @@ import com.leetcode.extend.TreeNode;
 /**
  * Create by ranzhendong on 2019-10-08 15:10
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class FlattenBTToLinkedList {
 

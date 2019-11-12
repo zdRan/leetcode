@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 96. 不同的二叉搜索树
  * Create by ranzd on 2019/8/27
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class UniqueBST {
     /**

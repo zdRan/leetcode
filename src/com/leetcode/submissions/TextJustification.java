@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2018/12/13
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class TextJustification {
     public static List<String> fullJustify(String[] words, int maxWidth) {

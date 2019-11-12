@@ -6,7 +6,7 @@ import com.leetcode.utils.TreeUtil;
 /**
  * Create by ranzd on 2019-09-06 10:17
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Create by ranzd on 2018/12/10
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class PlusOne {
     public static int[] plusOne(int[] digits) {

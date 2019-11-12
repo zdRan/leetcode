@@ -6,7 +6,7 @@ import java.util.Stack;
  * 84. 柱状图中最大的矩形
  * Create by ranzd on 2019/4/22
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class LargestRectangle {
     /**

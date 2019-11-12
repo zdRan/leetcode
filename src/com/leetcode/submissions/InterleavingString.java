@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Create by ranzd on 2019-08-30 14:53
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class InterleavingString {
     public static boolean isInterleave(String s1, String s2, String s3) {

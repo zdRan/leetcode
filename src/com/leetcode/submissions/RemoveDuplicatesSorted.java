@@ -6,7 +6,7 @@ import com.leetcode.extend.ListNode;
  * 83. 删除排序链表中的重复元素
  * Create by ranzd on 2019/4/21
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class RemoveDuplicatesSorted {
     /**

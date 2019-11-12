@@ -6,7 +6,7 @@ import com.leetcode.utils.Show;
 /**
  * Create by ranzd on 2017/11/15
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class LongestPalindromicSubstringMain {
     public static void main(String[] args) {

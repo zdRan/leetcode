@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Create by ranzd on 2018/1/23
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class NextPermutation {
     public static void nextPermutation(int[] nums) {

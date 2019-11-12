@@ -6,7 +6,7 @@ import com.leetcode.utils.Show;
 /**
  * Create by ranzd on 17-11-21
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class RegularMatchingMain {
     public static void main(String[] args) {

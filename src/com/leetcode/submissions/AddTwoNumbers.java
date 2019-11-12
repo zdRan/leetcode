@@ -5,7 +5,7 @@ import com.leetcode.extend.ListNode;
 /**
  * Create by ranzd on 2017/10/22
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class AddTwoNumbers {
 

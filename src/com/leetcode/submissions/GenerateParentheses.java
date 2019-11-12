@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2017/12/8
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class GenerateParentheses {
     private List<String> result = new ArrayList<>();

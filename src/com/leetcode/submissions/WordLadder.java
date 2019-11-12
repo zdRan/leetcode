@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Create by ranzhendong on 2019-10-21 16:03
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class WordLadder {
     public static int ladderLength(String beginWord, String endWord, List<String> wordList) {

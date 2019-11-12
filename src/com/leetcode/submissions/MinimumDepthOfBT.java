@@ -6,7 +6,7 @@ import com.leetcode.utils.TreeUtil;
 /**
  * Create by ranzhendong on 2019-09-30 10:30
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class MinimumDepthOfBT {
     public static int minDepth(TreeNode root) {

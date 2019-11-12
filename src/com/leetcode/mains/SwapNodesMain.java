@@ -7,7 +7,7 @@ import com.leetcode.utils.Show;
 /**
  * Create by ranzd on 2017/12/11
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class SwapNodesMain {
     public static void main(String[] args) {

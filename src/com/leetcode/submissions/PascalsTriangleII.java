@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Create by ranzhendong on 2019-10-11 15:54
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PascalsTriangleII {
     /**

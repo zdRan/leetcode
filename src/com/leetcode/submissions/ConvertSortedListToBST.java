@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Create by ranzhendong on 2019-09-29 19:13
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class ConvertSortedListToBST {
     public TreeNode sortedListToBST(ListNode head) {

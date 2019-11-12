@@ -6,7 +6,7 @@ import com.leetcode.utils.TreeUtil;
 /**
  * Create by ranzhendong on 2019-10-14 16:18
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class BinaryTreeMaximumPathSum {
     static int max = Integer.MIN_VALUE;

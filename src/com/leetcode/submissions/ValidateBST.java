@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2019-09-02 11:11
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class ValidateBST {
 

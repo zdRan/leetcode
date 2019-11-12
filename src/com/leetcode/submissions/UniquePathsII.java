@@ -3,7 +3,7 @@ package com.leetcode.submissions;
 /**
  * Created by zdRan on 2018/12/6
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class UniquePathsII {
     public static int uniquePathsWithObstacles(int[][] obstacleGrid) {

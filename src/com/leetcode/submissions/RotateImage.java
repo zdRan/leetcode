@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 48. 旋转图片
  * Create by ranzd on 2018/7/26
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class RotateImage {
     public static void rotate(int[][] matrix) {

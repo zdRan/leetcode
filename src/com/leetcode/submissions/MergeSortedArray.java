@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 88. 合并两个有序数组
  * Create by ranzd on 2019/4/23
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class MergeSortedArray {
     /**

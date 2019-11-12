@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Create by ranzd on 2017/12/6
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class ValidParentheses {
     public boolean isValid(String s) {

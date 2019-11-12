@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 /**
  * Create by ranzd on 2018/12/7
  *
- * @author ranzd@chinaunicom.cn
+ * @author cm.zdran@foxmail.com
  */
 public class ValidNumber {
     public static boolean isNumber(String s) {

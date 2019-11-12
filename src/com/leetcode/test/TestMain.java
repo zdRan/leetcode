@@ -7,7 +7,7 @@ import java.util.Arrays;
  * <p>
  * Create by ranzd on 2017/10/23
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class TestMain {
     private static int count = 0;

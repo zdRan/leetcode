@@ -3,7 +3,7 @@ package com.leetcode.submissions;
  * 91. 解码方法
  * Create by ranzd on 2018/2/1
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class DecodeWays {
     /**

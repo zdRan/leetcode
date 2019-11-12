@@ -6,7 +6,7 @@ import com.leetcode.utils.Show;
 /**
  * Create by zdRan on 2018/5/8
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class TrappingRainWaterMain {
     public static void main(String[] args) {

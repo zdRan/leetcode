@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2018/12/14
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class SimplifyPath {
     public static String simplifyPath(String path) {

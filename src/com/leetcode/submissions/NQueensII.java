@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Create by ranzd on 2018/11/13
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class NQueensII {
     public static int total = 0;

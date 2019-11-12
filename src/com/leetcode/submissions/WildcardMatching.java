@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 44. Wildcard Matching
  * Create by ranzd on 2018/6/11
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class WildcardMatching {
     public static boolean isMatch(String s, String p) {

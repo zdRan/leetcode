@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Create by ranzhendong on 2019-10-09 15:13
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class DistinctSubsequences {
     /**

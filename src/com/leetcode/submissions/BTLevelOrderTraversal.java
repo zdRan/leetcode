@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Create by ranzhendong on 2019-09-11
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class BTLevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {

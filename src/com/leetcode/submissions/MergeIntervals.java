@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Create by ranzd on 2018/11/19
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class MergeIntervals {
     public static List<Interval> merge(List<Interval> intervals) {

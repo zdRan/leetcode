@@ -6,7 +6,7 @@ import com.leetcode.extend.ListNode;
  * 92. Reverse Linked List II
  * Create by ranzd on 2019/4/26
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class ReverseLinkedListII {
     public static ListNode reverseBetween(ListNode head, int m, int n) {

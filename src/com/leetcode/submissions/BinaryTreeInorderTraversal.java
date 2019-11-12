@@ -10,7 +10,7 @@ import java.util.Stack;
  * 94. 二叉树的中序遍历
  * Create by ranzd on 2019/5/15
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class BinaryTreeInorderTraversal {
     private static void dsfTree(List<Integer> result, TreeNode root) {

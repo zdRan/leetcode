@@ -5,7 +5,7 @@ import com.leetcode.extend.ListNode;
 /**
  * Create by ranzd on 2017/12/6
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class RemoveNodeFromList {
     public ListNode removeNthFromEnd(ListNode head, int n) {

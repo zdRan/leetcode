@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Create by ranzhendong on 2019-10-15 17:23
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class WordLadderII {
     public static List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {

@@ -6,7 +6,7 @@ import com.leetcode.utils.Show;
 /**
  * Create by ranzd on 2017/10/23
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class LongestSubstringMain {
     public static void main(String[] args) {

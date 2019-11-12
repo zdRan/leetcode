@@ -7,7 +7,7 @@ import java.util.List;
  * 89. 格雷编码
  * Create by ranzd on 2019/4/24
  *
- * @author cm.zdran@gmail.com
+ * @author cm.zdran@foxmail.com
  */
 public class GrayCode {
     /**
