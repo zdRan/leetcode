@@ -14,40 +14,52 @@ public class WordLadderII {
 
         for (int i = 0; i < wordList.size(); i++) {
             for (int j = 0; j < wordList.size(); j++) {
+                if(i == j){
+                    map[i][j] = -1;
+                    continue;
+                }
                 map[i][j] = getUnion(wordList.get(i), wordList.get(j));
             }
         }
-        return find(beginWord, endWord, wordList, map);
-
+        System.out.println(find(beginWord, endWord, wordList, map));
+        return null;
     }
 
-    private static List<List<String>> find(String beginWord, String endWord, List<String> wordList, byte[][] map) {
+    private static int find(String beginWord, String endWord, List<String> wordList, byte[][] map) {
         Queue<Integer> queue = new ArrayDeque<>();
         queue.add(map.length - 1);
-        List<String> item = new LinkedList<>();
-        List<List<String>> result = new LinkedList<>();
+
+        queue.add(-1);
+        int count = 1;
+        boolean[] flag = new boolean[wordList.size()];
+        Arrays.fill(flag, false);
+        flag[map.length - 1] = true;
         while (!queue.isEmpty()){
             int index = queue.poll();
-            item.add(wordList.get(index));
-
-            if (wordList.get(index).equals(endWord)) {
-                if (result.size() == 0) {
-                    result.add(new ArrayList<>(item));
-                }else {
-                    if (result.get(0).size() > item.size()) {
-                        result.clear();
-                        result.add(new ArrayList<>(item));
-                    }
-                }
-                item.remove(item.size() - 1);
+            if (index == -1 && queue.isEmpty()) {
+                return 0;
+            }
+            if (index == -1) {
+                //层分割符
+                queue.add(-1);
+                count++;
                 continue;
             }
+            flag[index] = true;
+
             for (int i = 0; i < map[index].length; i++) {
-                if (map[index][i] == 1 &&!queue.contains(i)){
+                if (map[index][i] == -1) {
+                    continue;
+                }
+                if (map[index][i] == 1 &&!queue.contains(i) && !flag[i]){
                     queue.add(i);
+                }
+                if (map[index][i] == 1 && wordList.get(i).equals(endWord)) {
+                    return count + 1;
                 }
             }
         }
+        return count;
 
     }
 
@@ -70,6 +82,7 @@ public class WordLadderII {
     }
 
     public static void main(String[] args) {
-        findLadders("hit", "cog", Arrays.asList("hot", "dot", "dog", "lot", "log", "cog"));
+        //findLadders("hit", "hog", new ArrayList<>(Arrays.asList("hot", "hog")));
+        System.out.println("自动上单-1422-万达影城（金融街万达广场店）-可乐套餐".length());
     }
 }
