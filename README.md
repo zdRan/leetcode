@@ -10,7 +10,7 @@
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
 |127 |[Word Ladder](#)|[Java](./src/com/leetcode/submissions/WordLadder.java)|Medium|
-|126 |[Word Ladder II 放弃](#)|[Java](./src/com/leetcode/submissions/WordLadderII.java)|Hard|
+|126 |[Word Ladder II](#)|[放弃](./src/com/leetcode/submissions/WordLadderII.java)|Hard|
 |125 |[Valid Palindrome](#)|[Java](./src/com/leetcode/submissions/ValidPalindrome.java)|Easy|
 |124 |[Binary Tree Maximum Path Sum](#)|[Java](./src/com/leetcode/submissions/BinaryTreeMaximumPathSum.java)|Hard|
 |123 |[Best Time to Buy and Sell Stock III](#)|[Java](./src/com/leetcode/submissions/BestTimeToBuyAndSellStockIII.java)|Hard|
