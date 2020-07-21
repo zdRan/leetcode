@@ -9,6 +9,10 @@
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|127 |[分割回文串](#)|[Java](./src/com/leetcode/submissions/PalindromePartitioning.java)|Medium|
+|130 |[被围绕的区域](#)|[Java](./src/com/leetcode/submissions/SurroundedRegions.java)|Medium|
+|129 |[求根到叶子节点数字之和](#)|[Java](./src/com/leetcode/submissions/SumRootToLeafNumbers.java)|Medium|
+|128 |[最长连续序列](#)|[Java](./src/com/leetcode/submissions/LongestConsecutiveSequence.java)|Hard|
 |127 |[Word Ladder](#)|[Java](./src/com/leetcode/submissions/WordLadder.java)|Medium|
 |126 |[Word Ladder II](#)|[放弃](./src/com/leetcode/submissions/WordLadderII.java)|Hard|
 |125 |[Valid Palindrome](#)|[Java](./src/com/leetcode/submissions/ValidPalindrome.java)|Easy|

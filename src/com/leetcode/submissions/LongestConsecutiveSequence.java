@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
+ * 128. 最长连续序列
  * Create by Ranzd on 2019-11-12 19:12
  *
  * @author cm.zdran@foxmail.com
