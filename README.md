@@ -6,6 +6,14 @@
 4. submissions：提交的代码，解题的具体实现在这个包下。
 5. utils：工具类，一些测试用到的工具类，例如打印数组等。
 6. test：用于测试一些API。
+
+## 趟不动了，开始按标签刷
+### [树](https://leetcode-cn.com/tag/tree/)
+| # | 思路   | 代码      | 难度       |
+|---| ----- | -------- | ---------- |
+|面试题 04.03|[特定深度节点链表](#)|[Java](./src/com/leetcode/submissions/ListOfDepthLCCI.java)|Medium|
+|589|[N叉树的前序遍历](#)|[Java](./src/com/leetcode/submissions/NaryTreePreorderTraversal.java)|Easy|
+
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
