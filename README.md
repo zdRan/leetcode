@@ -13,6 +13,7 @@
 |---| ----- | -------- | ---------- |
 |面试题 04.03|[特定深度节点链表](#)|[Java](./src/com/leetcode/submissions/ListOfDepthLCCI.java)|Medium|
 |589|[N叉树的前序遍历](#)|[Java](./src/com/leetcode/submissions/NaryTreePreorderTraversal.java)|Easy|
+|剑指 Offer 32 - II|[从上到下打印二叉树 II](#)|[Java](./src/com/leetcode/submissions/LCOF.java)|Easy|
 
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
