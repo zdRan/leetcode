@@ -14,6 +14,10 @@
 |面试题 04.03|[特定深度节点链表](#)|[Java](./src/com/leetcode/submissions/ListOfDepthLCCI.java)|Medium|
 |589|[N叉树的前序遍历](#)|[Java](./src/com/leetcode/submissions/NaryTreePreorderTraversal.java)|Easy|
 |剑指 Offer 32 - II|[从上到下打印二叉树 II](#)|[Java](./src/com/leetcode/submissions/LCOF.java)|Easy|
+|654|[最大二叉树](#)|[Java](./src/com/leetcode/submissions/MaximumBinaryTree.java)|Medium|
+|998|[最大二叉树 II](#)|[Java](./src/com/leetcode/submissions/MaximumBinaryTreeII.java)|Medium|
+|897|[递增顺序查找树](#)|[Java](./src/com/leetcode/submissions/IncreasingOrderSearchTree.java)|Easy|
+
 
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
