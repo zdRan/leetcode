@@ -17,6 +17,7 @@
 |654|[最大二叉树](#)|[Java](./src/com/leetcode/submissions/MaximumBinaryTree.java)|Medium|
 |998|[最大二叉树 II](#)|[Java](./src/com/leetcode/submissions/MaximumBinaryTreeII.java)|Medium|
 |897|[递增顺序查找树](#)|[Java](./src/com/leetcode/submissions/IncreasingOrderSearchTree.java)|Easy|
+|剑指 Offer 54. |[二叉搜索树的第k大节点](#)|[Java](./src/com/leetcode/submissions/KthLargest.java)|Easy|
 
 
 ## 题目目录
