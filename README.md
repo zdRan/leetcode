@@ -22,6 +22,7 @@
 |222|[完全二叉树的节点个数](#)|[Java](./src/com/leetcode/submissions/CountCompleteTreeNodes.java)|Medium|
 |剑指 Offer 26|[树的子结构](#)|[Java](./src/com/leetcode/submissions/IsSubStructure.java)|Medium|
 |剑指 Offer 55 - II|[平衡二叉树](#)|[Java](./src/com/leetcode/submissions/IsBalanced.java)|Easy|
+|814 |[二叉树剪枝](#)|[Java](./src/com/leetcode/submissions/BinaryTreePruning.java)|Medium|
 
 
 ## 题目目录
