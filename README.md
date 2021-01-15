@@ -21,6 +21,7 @@
 |1530|[好叶子节点对的数量](#)|[Java](./src/com/leetcode/submissions/NumberOfGoodLeafNodesPairs.java)|Medium|
 |222|[完全二叉树的节点个数](#)|[Java](./src/com/leetcode/submissions/CountCompleteTreeNodes.java)|Medium|
 |剑指 Offer 26|[树的子结构](#)|[Java](./src/com/leetcode/submissions/IsSubStructure.java)|Medium|
+|剑指 Offer 55 - II|[平衡二叉树](#)|[Java](./src/com/leetcode/submissions/IsBalanced.java)|Easy|
 
 
 ## 题目目录
