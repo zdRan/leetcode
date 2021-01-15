@@ -14,7 +14,7 @@ import java.util.Queue;
  *
  * @author ranzhendong@maoyan.com
  */
-public class LCOF {
+public class ListOfDepth {
     public List<List<Integer>> listOfDepth(TreeNode tree) {
         List<List<Integer>> ans = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();

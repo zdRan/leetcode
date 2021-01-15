@@ -13,11 +13,14 @@
 |---| ----- | -------- | ---------- |
 |面试题 04.03|[特定深度节点链表](#)|[Java](./src/com/leetcode/submissions/ListOfDepthLCCI.java)|Medium|
 |589|[N叉树的前序遍历](#)|[Java](./src/com/leetcode/submissions/NaryTreePreorderTraversal.java)|Easy|
-|剑指 Offer 32 - II|[从上到下打印二叉树 II](#)|[Java](./src/com/leetcode/submissions/LCOF.java)|Easy|
+|剑指 Offer 32 - II|[从上到下打印二叉树 II](#)|[Java](./src/com/leetcode/submissions/ListOfDepth.java)|Easy|
 |654|[最大二叉树](#)|[Java](./src/com/leetcode/submissions/MaximumBinaryTree.java)|Medium|
 |998|[最大二叉树 II](#)|[Java](./src/com/leetcode/submissions/MaximumBinaryTreeII.java)|Medium|
 |897|[递增顺序查找树](#)|[Java](./src/com/leetcode/submissions/IncreasingOrderSearchTree.java)|Easy|
-|剑指 Offer 54. |[二叉搜索树的第k大节点](#)|[Java](./src/com/leetcode/submissions/KthLargest.java)|Easy|
+|剑指 Offer 54 |[二叉搜索树的第k大节点](#)|[Java](./src/com/leetcode/submissions/KthLargest.java)|Easy|
+|1530|[好叶子节点对的数量](#)|[Java](./src/com/leetcode/submissions/NumberOfGoodLeafNodesPairs.java)|Medium|
+|222|[完全二叉树的节点个数](#)|[Java](./src/com/leetcode/submissions/CountCompleteTreeNodes.java)|Medium|
+|剑指 Offer 26|[树的子结构](#)|[Java](./src/com/leetcode/submissions/IsSubStructure.java)|Medium|
 
 
 ## 题目目录
