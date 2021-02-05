@@ -24,6 +24,7 @@
 |剑指 Offer 55 - II|[平衡二叉树](#)|[Java](./src/com/leetcode/submissions/IsBalanced.java)|Easy|
 |814 |[二叉树剪枝](#)|[Java](./src/com/leetcode/submissions/BinaryTreePruning.java)|Medium|
 |面试题 04.05|[合法二叉搜索树](#)|[Java](./src/com/leetcode/submissions/IsValidBST.java)|Medium|
+|865|[具有所有最深节点的最小子树](#)|[Java](./src/com/leetcode/submissions/SubtreeWithAllDeepest.java)|Medium|
 
 
 ## 题目目录
