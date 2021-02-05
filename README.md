@@ -26,6 +26,7 @@
 |面试题 04.05|[合法二叉搜索树](#)|[Java](./src/com/leetcode/submissions/IsValidBST.java)|Medium|
 |865|[具有所有最深节点的最小子树](#)|[Java](./src/com/leetcode/submissions/SubtreeWithAllDeepest.java)|Medium|
 |面试题 04.12|[求和路径](#)|[Java](./src/com/leetcode/submissions/PathsWithSum.java)|Medium|
+|1022|[从根到叶的二进制数之和](#)|[Java](./src/com/leetcode/submissions/SumOfRootToLeafBinaryNumbers.java)|Easy|
 
 
 ## 题目目录
