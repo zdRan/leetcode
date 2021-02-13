@@ -28,6 +28,7 @@
 |面试题 04.12|[求和路径](#)|[Java](./src/com/leetcode/submissions/PathsWithSum.java)|Medium|
 |1022|[从根到叶的二进制数之和](#)|[Java](./src/com/leetcode/submissions/SumOfRootToLeafBinaryNumbers.java)|Easy|
 |1110|[删点成林](#)|[Java](./src/com/leetcode/submissions/DeleteNodesAndReturnForest.java)|Medium|
+|606|[根据二叉树创建字符串](#)|[Java](./src/com/leetcode/submissions/ConstructStringFromBinaryTree.java)|Easy|
 
 
 ## 题目目录
