@@ -30,6 +30,7 @@
 |1110|[删点成林](#)|[Java](./src/com/leetcode/submissions/DeleteNodesAndReturnForest.java)|Medium|
 |606|[根据二叉树创建字符串](#)|[Java](./src/com/leetcode/submissions/ConstructStringFromBinaryTree.java)|Easy|
 |剑指 Offer 28|[对称的二叉树](#)|[Java](./src/com/leetcode/submissions/SymmetricTree.java)|Easy|
+|297|[二叉树的序列化与反序列化](#)|[Java](./src/com/leetcode/submissions/SerializeAndDeserializeBinaryTree.java)|Hard|
 
 
 ## 题目目录
