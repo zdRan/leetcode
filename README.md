@@ -31,6 +31,7 @@
 |606|[根据二叉树创建字符串](#)|[Java](./src/com/leetcode/submissions/ConstructStringFromBinaryTree.java)|Easy|
 |剑指 Offer 28|[对称的二叉树](#)|[Java](./src/com/leetcode/submissions/SymmetricTree.java)|Easy|
 |297|[二叉树的序列化与反序列化](#)|[Java](./src/com/leetcode/submissions/SerializeAndDeserializeBinaryTree.java)|Hard|
+|617|[合并二叉树](#)|[Java](./src/com/leetcode/submissions/MergeTwoBinaryTrees.java)|Easy|
 
 
 ## 题目目录
