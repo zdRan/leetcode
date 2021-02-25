@@ -32,11 +32,14 @@
 |剑指 Offer 28|[对称的二叉树](#)|[Java](./src/com/leetcode/submissions/SymmetricTree.java)|Easy|
 |297|[二叉树的序列化与反序列化](#)|[Java](./src/com/leetcode/submissions/SerializeAndDeserializeBinaryTree.java)|Hard|
 |617|[合并二叉树](#)|[Java](./src/com/leetcode/submissions/MergeTwoBinaryTrees.java)|Easy|
+|1123|[最深叶节点的最近公共祖先](#)|[Java](./src/com/leetcode/submissions/LowestCommonAncestorOfDeepestLeaves.java)|Medium|
+|剑指 Offer 55 - I|[二叉树的深度](#)|[Java](./src/com/leetcode/submissions/MaxDepth.java)|Easy|
 
 
 ## 题目目录
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
+|867 |[转置矩阵](#)|[Java](./src/com/leetcode/submissions/TransposeMatrix.java)|Easy|
 |448 |[找到所有数组中消失的数字](#)|[Java](./src/com/leetcode/submissions/FindAllNumbersDisappearedInAnArray.java)|Easy|
 |131 |[分割回文串](#)|[Java](./src/com/leetcode/submissions/PalindromePartitioning.java)|Medium|
 |130 |[被围绕的区域](#)|[Java](./src/com/leetcode/submissions/SurroundedRegions.java)|Medium|
