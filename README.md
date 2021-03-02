@@ -34,6 +34,8 @@
 |617|[合并二叉树](#)|[Java](./src/com/leetcode/submissions/MergeTwoBinaryTrees.java)|Easy|
 |1123|[最深叶节点的最近公共祖先](#)|[Java](./src/com/leetcode/submissions/LowestCommonAncestorOfDeepestLeaves.java)|Medium|
 |剑指 Offer 55 - I|[二叉树的深度](#)|[Java](./src/com/leetcode/submissions/MaxDepth.java)|Easy|
+|199|[二叉树的右视图](#)|[Java](./src/com/leetcode/submissions/BinaryTreeRightSideView.java)|Medium|
+|1339|[分裂二叉树的最大乘积](#)|[Java](./src/com/leetcode/submissions/MaximumProductOfSplittedBinaryTree.java)|Medium|
 
 
 ## 题目目录
