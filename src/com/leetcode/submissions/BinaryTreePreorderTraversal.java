@@ -4,7 +4,6 @@ import com.leetcode.extend.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
