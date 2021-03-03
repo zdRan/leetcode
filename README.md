@@ -37,6 +37,7 @@
 |199|[二叉树的右视图](#)|[Java](./src/com/leetcode/submissions/BinaryTreeRightSideView.java)|Medium|
 |1339|[分裂二叉树的最大乘积](#)|[Java](./src/com/leetcode/submissions/MaximumProductOfSplittedBinaryTree.java)|Medium|
 |144|[二叉树的前序遍历](#)|[Java](./src/com/leetcode/submissions/BinaryTreePreorderTraversal.java)|Medium|
+|1372|[二叉树中的最长交错路径](#)|[Java](./src/com/leetcode/submissions/LongestZigZagPathInABinaryTree.java)|Medium|
 
 
 ## 题目目录
