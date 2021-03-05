@@ -41,6 +41,7 @@
 |226|[翻转二叉树](#)|[Java](./src/com/leetcode/submissions/InvertBinaryTree.java)|Easy|
 |剑指 Offer 68 - I|[二叉搜索树的最近公共祖先](#)|[Java](./src/com/leetcode/submissions/LowestCommonAncestor.java)|Easy|
 |919|[完全二叉树插入器](#)|[Java](./src/com/leetcode/submissions/CBTInserter.java)|Medium|
+|1145|[二叉树着色游戏](#)|[Java](./src/com/leetcode/submissions/BinaryTreeColoringGame.java)|Medium|
 
 
 ## 题目目录
