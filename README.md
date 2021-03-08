@@ -44,6 +44,7 @@
 |1145|[二叉树着色游戏](#)|[Java](./src/com/leetcode/submissions/BinaryTreeColoringGame.java)|Medium|
 |235|[二叉搜索树的最近公共祖先](#)|[Java](./src/com/leetcode/submissions/LowestCommonAncestorOfABinarySearchTree.java)|Easy|
 |701|[二叉搜索树中的插入操作](#)|[Java](./src/com/leetcode/submissions/InsertIntoABinarySearchTree.java)|Medium|
+|1457|[二叉树中的伪回文路径](#)|[Java](./src/com/leetcode/submissions/PseudoPalindromicPathsInABinaryTree.java)|Medium|
 
 
 ## 题目目录
