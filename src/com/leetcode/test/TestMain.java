@@ -569,4 +569,13 @@ public class TestMain {
         }
         return result;
     }
+    public static int tableSizeFor(int cap) {
+        int n = cap - 1;
+        n |= n >>> 1;
+        n |= n >>> 2;
+        n |= n >>> 4;
+        n |= n >>> 8;
+        n |= n >>> 16;
+        return (n < 0) ? 1 : (n >= 1111) ? 1111 : n + 1;
+    }
 }
