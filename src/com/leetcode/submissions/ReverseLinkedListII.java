@@ -2,6 +2,8 @@ package com.leetcode.submissions;
 
 import com.leetcode.extend.ListNode;
 
+import java.util.LinkedList;
+
 /**
  * 92. Reverse Linked List II
  * Create by ranzd on 2019/4/26
@@ -38,18 +40,46 @@ public class ReverseLinkedListII {
         return left == root ? left.next : head;
     }
 
+    public static ListNode func(ListNode head, int m, int n) {
+        ListNode left = head;
+        ListNode right = head;
+        LinkedList<Integer> valList = new LinkedList<>();
+        while (n - m > 0) {
+            valList.addLast(right.val);
+            right = right.next;
+            n--;
+        }
+        while (n > 1) {
+            valList.addLast(right.val);
+            right = right.next;
+            left = left.next;
+            valList.removeFirst();
+            n--;
+        }
+        valList.addLast(right.val);
+
+        while (left != right) {
+            left.val = valList.removeLast();
+            left = left.next;
+        }
+        left.val = valList.removeLast();
+        return head;
+    }
+
     public static void main(String[] args) {
         ListNode head = new ListNode(0);
         ListNode curr = head;
-        for (int i = 1; i < 6; i++) {
+        for (int i = 1; i < 10; i++) {
             curr.next = new ListNode(i);
 
             curr = curr.next;
         }
-        head = reverseBetween(head.next, 1, 5);
+        head = func(head.next, 2, 2);
         while (head != null) {
             System.out.print(head.val + "->");
             head = head.next;
         }
+
     }
+
 }
