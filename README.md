@@ -7,7 +7,7 @@
 5. utils：工具类，一些测试用到的工具类，例如打印数组等。
 6. test：用于测试一些API。
 
-## 趟不动了，开始按标签刷
+## 刷不动了，开始按标签刷
 ### [树](https://leetcode-cn.com/tag/tree/)
 | # | 思路   | 代码      | 难度       |
 |---| ----- | -------- | ---------- |
@@ -47,6 +47,7 @@
 |1457|[二叉树中的伪回文路径](#)|[Java](./src/com/leetcode/submissions/PseudoPalindromicPathsInABinaryTree.java)|Medium|
 |145|[二叉树的后序遍历](#)|[Java](./src/com/leetcode/submissions/BinaryTreePostorderTraversal.java)|Medium|
 |236|[二叉树的最近公共祖先](#)|[Java](./src/com/leetcode/submissions/LowestCommonAncestorOfABinaryTree.java)|Medium|
+|257|[二叉树的所有路径](#)|[Java](./src/com/leetcode/submissions/BinaryTreePaths.java)|Easy|
 
 
 ## 题目目录
