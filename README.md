@@ -48,6 +48,7 @@
 |145|[二叉树的后序遍历](#)|[Java](./src/com/leetcode/submissions/BinaryTreePostorderTraversal.java)|Medium|
 |236|[二叉树的最近公共祖先](#)|[Java](./src/com/leetcode/submissions/LowestCommonAncestorOfABinaryTree.java)|Medium|
 |257|[二叉树的所有路径](#)|[Java](./src/com/leetcode/submissions/BinaryTreePaths.java)|Easy|
+|230|[二叉搜索树中第K小的元素](#)|[Java](./src/com/leetcode/submissions/KthSmallestElementInABST.java)|Medium|
 
 
 ## 题目目录
