@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 867. 转置矩阵
  * Create by Ranzd on 2021-02-25 15:38
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class TransposeMatrix {
     public int[][] transpose(int[][] matrix) {

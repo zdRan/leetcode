@@ -9,7 +9,7 @@ import java.util.List;
  * 257. 二叉树的所有路径
  * Create by Ranzd on 2021-05-08 15:08
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class BinaryTreePaths {
     private List<String> result = new LinkedList<>();

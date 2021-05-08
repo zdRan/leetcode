@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Create by Ranzd on 2020-03-29 11:07
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class UndergroundSystem {
     Map<String, Map<Integer, Integer>> checkIn = new HashMap<>();

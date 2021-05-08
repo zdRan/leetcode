@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 129. 求根到叶子节点数字之和
  * Create by Ranzd on 2019-11-13 10:25
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class SumRootToLeafNumbers {
     public int sumNumbers(TreeNode root) {

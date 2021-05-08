@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 235. 二叉搜索树的最近公共祖先
  * Create by Ranzd on 2021-03-06 21:34
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class LowestCommonAncestorOfABinarySearchTree {
     TreeNode result = null;

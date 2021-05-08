@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Create by Ranzd on 2020-03-24 10:25
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class TheMasseuseLCCI {
     public int ans = 0;

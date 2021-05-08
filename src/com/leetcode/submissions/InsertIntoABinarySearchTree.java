@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 701. 二叉搜索树中的插入操作
  * Create by Ranzd on 2021-03-06 21:39
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class InsertIntoABinarySearchTree {
     public TreeNode insertIntoBST(TreeNode root, int val) {

@@ -5,7 +5,7 @@ import com.leetcode.extend.TreeNode;
 /**
  * Create by Ranzd on 2021-01-11 20:00
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class MaximumBinaryTreeII {
     public TreeNode insertIntoMaxTree(TreeNode root, int val) {

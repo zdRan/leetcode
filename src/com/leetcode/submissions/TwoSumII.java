@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 167. 两数之和 II - 输入有序数组
  * Create by Ranzd on 2020-07-20 19:26
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class TwoSumII {
     public int[] twoSum(int[] numbers, int target) {

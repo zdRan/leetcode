@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 1022. 从根到叶的二进制数之和
  * Create by Ranzd on 2021-02-05 19:53
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class SumOfRootToLeafBinaryNumbers {
     private StringBuilder sb = new StringBuilder();

@@ -12,7 +12,7 @@ import java.util.Queue;
  * 面试题 04.03. 特定深度节点链表
  * Create by Ranzd on 2021-01-06 21:17
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class ListOfDepthLCCI {
     public ListNode[] listOfDepth(TreeNode tree) {

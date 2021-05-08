@@ -9,7 +9,7 @@ import java.util.List;
  * 1443. 收集树上所有苹果的最少时间（尝试中）
  * Create by Ranzd on 2021-02-13 18:59
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class MinimumTimeToCollectAllApplesInATree {
 

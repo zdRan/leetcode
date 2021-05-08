@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 226. 翻转二叉树
  * Create by Ranzd on 2021-03-03 19:52
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {

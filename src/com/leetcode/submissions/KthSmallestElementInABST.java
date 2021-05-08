@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 230. 二叉搜索树中第K小的元素
  * Create by Ranzd on 2021-05-08 15:29
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class KthSmallestElementInABST {
     int result = -1;

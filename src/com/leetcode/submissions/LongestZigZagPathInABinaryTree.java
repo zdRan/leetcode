@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 1372. 二叉树中的最长交错路径
  * Create by Ranzd on 2021-03-02 20:27
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class LongestZigZagPathInABinaryTree {
     int max = 0;

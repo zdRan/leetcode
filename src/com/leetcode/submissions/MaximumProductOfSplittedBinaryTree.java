@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 1339. 分裂二叉树的最大乘积
  * Create by Ranzd on 2021-02-26 14:17
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class MaximumProductOfSplittedBinaryTree {
     long abs = 0;

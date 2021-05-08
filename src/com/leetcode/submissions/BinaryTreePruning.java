@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 814. 二叉树剪枝
  * Create by Ranzd on 2021-01-15 13:47
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class BinaryTreePruning {
     public TreeNode pruneTree(TreeNode root) {

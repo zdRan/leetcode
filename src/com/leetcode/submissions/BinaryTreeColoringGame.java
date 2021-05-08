@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 1145. 二叉树着色游戏
  * Create by Ranzd on 2021-03-05 19:13
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class BinaryTreeColoringGame {
     int left = 0;

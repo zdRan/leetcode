@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 面试题 04.05. 合法二叉搜索树
  * Create by Ranzd on 2021-01-25 20:18
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class IsValidBST {
     public long MAX_VAL = Long.MIN_VALUE;

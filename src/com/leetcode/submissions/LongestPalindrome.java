@@ -8,7 +8,7 @@ import java.util.Map;
  * 409. 最长回文串
  * Create by Ranzd on 2020-03-19 11:12
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class LongestPalindrome {
     public int longestPalindrome(String s) {

@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 剑指 Offer 26. 树的子结构
  * Create by Ranzd on 2021-01-13 21:25
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class IsSubStructure {
     public boolean isSubStructure(TreeNode A, TreeNode B) {

@@ -9,7 +9,7 @@ import java.util.Queue;
  * 297. 二叉树的序列化与反序列化
  * Create by Ranzd on 2021-02-22 17:27
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class SerializeAndDeserializeBinaryTree {
 

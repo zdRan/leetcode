@@ -8,7 +8,7 @@ import java.util.List;
  * 830. 较大分组的位置
  * Create by Ranzd on 2021-01-05 19:17
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PositionsOfLargeGroups {
     public static List<List<Integer>> largeGroupPositions(String s) {

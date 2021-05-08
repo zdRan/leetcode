@@ -9,7 +9,7 @@ import java.util.List;
  * 199. 二叉树的右视图
  * Create by Ranzd on 2021-02-26 12:04
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class BinaryTreeRightSideView {
     List<Integer> result = new LinkedList<>();

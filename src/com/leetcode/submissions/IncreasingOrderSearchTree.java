@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 897. 递增顺序查找树
  * Create by Ranzd on 2021-01-11 20:33
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class IncreasingOrderSearchTree {
     private TreeNode pRoot = new TreeNode(0);

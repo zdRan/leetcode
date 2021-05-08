@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Create by Ranzd on 2020-03-15 11:39
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class CustomStack {
     private List<Integer> stack;

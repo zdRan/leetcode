@@ -4,7 +4,7 @@ package com.aliyun.submissions;
  * 37.最强的团队
  * Create by Ranzd on 2020-07-16 11:29
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class solution37 {
     public static int solution(int n, int[] a) {

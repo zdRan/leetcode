@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 1123. 最深叶节点的最近公共祖先
  * Create by Ranzd on 2021-02-23 18:37
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class LowestCommonAncestorOfDeepestLeaves {
     public TreeNode ans = null;

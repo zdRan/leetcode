@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 654. 最大二叉树
  * Create by Ranzd on 2021-01-11 19:30
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class MaximumBinaryTree {
     public TreeNode constructMaximumBinaryTree(int[] nums) {

@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 617. 合并二叉树
  * Create by Ranzd on 2021-02-22 18:09
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class MergeTwoBinaryTrees {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {

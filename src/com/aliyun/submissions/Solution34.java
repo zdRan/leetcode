@@ -4,7 +4,7 @@ package com.aliyun.submissions;
  * 34.矩阵最小路径和
  * Create by Ranzd on 2020-07-11 21:26
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class Solution34 {
     public static int ans = Integer.MAX_VALUE;

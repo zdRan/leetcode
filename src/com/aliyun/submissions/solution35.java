@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 35.找出二叉搜索树的第2大的数
  * Create by Ranzd on 2020-07-11 21:41
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class solution35 {
     public int solution(TreeNode root) {

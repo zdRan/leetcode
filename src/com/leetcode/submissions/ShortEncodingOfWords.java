@@ -9,7 +9,7 @@ import java.util.TreeSet;
  * <p>
  * Create by Ranzd on 2020-03-28 21:45
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class ShortEncodingOfWords {
     public static int minimumLengthEncoding(String[] words) {

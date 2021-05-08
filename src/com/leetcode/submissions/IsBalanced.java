@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 剑指 Offer 55 - II. 平衡二叉树
  * Create by Ranzd on 2021-01-15 13:25
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class IsBalanced {
     private boolean accept = false;

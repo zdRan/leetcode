@@ -4,7 +4,7 @@ package com.leetcode.submissions;
  * 130. 被围绕的区域
  * Create by Ranzd on 2019-11-14 16:35
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class SurroundedRegions {
     public void solve(char[][] board) {

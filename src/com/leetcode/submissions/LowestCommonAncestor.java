@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 剑指 Offer 68 - I. 二叉搜索树的最近公共祖先
  * Create by Ranzd on 2021-03-03 20:07
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class LowestCommonAncestor {
     TreeNode result = null;

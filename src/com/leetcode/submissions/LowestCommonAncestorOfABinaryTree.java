@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 236. 二叉树的最近公共祖先
  * Create by Ranzd on 2021-05-08 14:49
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class LowestCommonAncestorOfABinaryTree {
     private TreeNode result = null;

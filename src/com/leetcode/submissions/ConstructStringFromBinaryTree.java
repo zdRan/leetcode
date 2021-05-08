@@ -5,7 +5,7 @@ import com.leetcode.extend.TreeNode;
 /**
  * Create by Ranzd on 2021-02-13 10:12
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class ConstructStringFromBinaryTree {
     StringBuilder sb = new StringBuilder();

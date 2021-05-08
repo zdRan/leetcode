@@ -11,7 +11,7 @@ import java.util.Map;
  * 改成数组应该会快一点
  * Create by Ranzd on 2021-03-08 19:11
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PseudoPalindromicPathsInABinaryTree {
     int total = 0;

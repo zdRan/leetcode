@@ -9,7 +9,7 @@ import java.util.Map;
  * 1530. 好叶子节点对的数量
  * Create by Ranzd on 2021-01-12 21:12
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class NumberOfGoodLeafNodesPairs {
     private int ans = 0;

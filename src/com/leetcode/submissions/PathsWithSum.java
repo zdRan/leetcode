@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 面试题 04.12. 求和路径
  * Create by Ranzd on 2021-02-05 19:39
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PathsWithSum {
     public int total = 0;

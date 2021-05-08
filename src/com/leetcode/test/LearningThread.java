@@ -16,7 +16,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * 学习多线程时的笔记
  * Create by Ranzd on 2021-03-17 17:33
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class LearningThread {
     static int count = 0;

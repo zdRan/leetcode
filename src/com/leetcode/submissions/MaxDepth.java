@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 剑指 Offer 55 - I. 二叉树的深度
  * Create by Ranzd on 2021-02-25 17:47
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class MaxDepth {
     public int maxDepth(TreeNode root) {

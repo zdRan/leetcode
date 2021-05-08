@@ -7,7 +7,7 @@ import java.util.Map;
  * 1160. 拼写单词
  * Create by Ranzd on 2020-03-17 14:21
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class FindWordsByCharacters {
     public static void main(String[] args) {

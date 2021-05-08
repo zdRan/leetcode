@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 剑指 Offer 54. 二叉搜索树的第k大节点
  * Create by Ranzd on 2021-01-11 20:59
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class KthLargest {
     private int count = 0;

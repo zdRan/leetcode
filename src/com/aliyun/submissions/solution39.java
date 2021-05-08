@@ -4,7 +4,7 @@ package com.aliyun.submissions;
  * 39.复杂的字符串
  * Create by Ranzd on 2020-07-16 14:35
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class solution39 {
     public static int solution(String s1, String s2) {

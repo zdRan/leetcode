@@ -8,7 +8,7 @@ import java.util.Map;
  * 40.2的幂次方数
  * Create by Ranzd on 2020-07-16 15:29
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class solution40 {
     public static int solution(int n, int[] nums) {

@@ -6,7 +6,7 @@ import com.leetcode.extend.TreeNode;
  * 865. 具有所有最深节点的最小子树
  * Create by Ranzd on 2021-02-05 16:32
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class SubtreeWithAllDeepest {
     public TreeNode ans = null;

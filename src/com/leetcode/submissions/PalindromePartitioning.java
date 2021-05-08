@@ -8,7 +8,7 @@ import java.util.List;
  * 131. 分割回文串
  * Create by Ranzd on 2020-07-20 20:27
  *
- * @author ranzhendong@maoyan.com
+ * @author cm.zdran@foxmail.com
  */
 public class PalindromePartitioning {
 
