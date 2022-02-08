@@ -1,9 +1,8 @@
 package com.leetcode.test;
 
-import com.leetcode.extend.TreeNode;
-
-import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -414,7 +413,7 @@ public class LearningThread {
         t3.start();
     }
 
-    public static Phaser phaser = new Phaser(){
+    public static Phaser phaser = new Phaser() {
         @Override
         protected boolean onAdvance(int phase, int registeredParties) {
             System.out.println("phase:" + phase + ",registeredParties:" + registeredParties);
@@ -422,7 +421,7 @@ public class LearningThread {
         }
     };
 
-    public static void func11(){
+    public static void func11() {
         Thread t1 = new Thread(() -> {
             System.out.println("t1 run");
             phaser.register();
@@ -461,7 +460,7 @@ public class LearningThread {
         t3.start();
     }
 
-    public static void func12(){
+    public static void func12() {
         List<RecursiveTask<Integer>> tasks = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
             int finalI = i;
@@ -484,7 +483,7 @@ public class LearningThread {
         }
         for (RecursiveTask<Integer> task : tasks) {
             try {
-                System.out.println("join:"+task.join());
+                System.out.println("join:" + task.join());
             } catch (Exception e) {
                 System.out.println(e);
             }
@@ -492,7 +491,7 @@ public class LearningThread {
         }
     }
 
-    public static void func13(){
+    public static void func13() {
         List<RecursiveAction> tasks = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
             int finalI = i;
@@ -512,6 +511,7 @@ public class LearningThread {
             int finalI = i;
             CountedCompleter<Integer> countedCompleter = new CountedCompleter<Integer>() {
                 int total = 0;
+
                 @Override
                 public void compute() {
                     System.out.println(finalI + " run");
@@ -520,6 +520,7 @@ public class LearningThread {
                     }
                     //tryComplete();
                 }
+
                 @Override
                 public void onCompletion(CountedCompleter<?> caller) {
                     System.out.println("onCompletion run!" + finalI + "，total：" + total);
@@ -539,7 +540,8 @@ public class LearningThread {
         }
         System.out.println("func end!");
     }
-    public static void func15(){
+
+    public static void func15() {
         Exchanger<Integer> exchanger = new Exchanger<>();
         Thread t1 = new Thread(() -> {
             System.out.println("t1 run");
@@ -549,7 +551,7 @@ public class LearningThread {
             }
             try {
                 count = exchanger.exchange(num) + num;
-                System.out.println("t1 count = "+count);
+                System.out.println("t1 count = " + count);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -563,7 +565,7 @@ public class LearningThread {
             }
             try {
                 count = exchanger.exchange(num) + num;
-                System.out.println("t2 count = "+count);
+                System.out.println("t2 count = " + count);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -577,7 +579,7 @@ public class LearningThread {
             }
             try {
                 count = exchanger.exchange(num) + num;
-                System.out.println("t3 count = "+count);
+                System.out.println("t3 count = " + count);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -589,6 +591,7 @@ public class LearningThread {
         //启动后，某个线程将会无法结束
         //t3.start();
     }
+
     public static void func16() throws ExecutionException, InterruptedException {
         List<FutureTask<Integer>> tasks = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
@@ -610,7 +613,8 @@ public class LearningThread {
         }
     }
 
-    static  ExecutorService executorService = Executors.newFixedThreadPool(3);
+    static ExecutorService executorService = Executors.newFixedThreadPool(3);
+
     public static void func17() throws ExecutionException, InterruptedException {
         List<FutureTask<Integer>> tasks = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
@@ -633,22 +637,28 @@ public class LearningThread {
     }
 
 
-
-
     public static void main(String[] args) throws Exception {
-//        func3(Thread.currentThread());
-//        LockSupport.park("main");
-//        System.out.println(count);
-//        System.out.println("main,run end");
 
-//        for (int i = 0; i < 10; i++) {
-//            func6();
-//            Thread.sleep(1000);
-//            System.out.println(count);
-//        }
-        func17();
-        Thread.sleep(1000);
+        //chalkReplacer(new int[]{5, 1, 5}, 5);
 
-        System.out.println(count);
+        List<Integer> list = new ArrayList<>();
+        list.add(3);
+        list.add(6);
+        list.add(1);
+        list.add(5);
+        list.sort(Comparator.reverseOrder());
+        System.out.println(Arrays.deepToString(list.toArray()));
+    }
+
+    public static int chalkReplacer(int[] chalk, int k) {
+        long count = Arrays.stream(chalk).sum();
+        long num = k > count ? k % count : k;
+        for (int i = 0; i < chalk.length; i++) {
+            num -= chalk[i];
+            if (num < 0) {
+                return i;
+            }
+        }
+        return 0;
     }
 }
