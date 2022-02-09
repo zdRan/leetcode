@@ -51,6 +51,7 @@
 |230|[二叉搜索树中第K小的元素](#)|[Java](./src/com/leetcode/submissions/KthSmallestElementInABST.java)|Medium|
 |337|[打家劫舍 III](#)|[Java](./src/com/leetcode/submissions/HouseRobberIII.java)|Medium|
 |341|[扁平化嵌套列表迭代器](#)|[Java](./src/com/leetcode/submissions/NestedIterator.java)|Medium|
+|404|[左叶子之和](#)|[Java](./src/com/leetcode/submissions/SumOfLeftLeaves.java)|Easy|
 
 
 ## 题目目录
