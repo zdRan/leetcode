@@ -53,6 +53,7 @@
 |341|[扁平化嵌套列表迭代器](#)|[Java](./src/com/leetcode/submissions/NestedIterator.java)|Medium|
 |404|[左叶子之和](#)|[Java](./src/com/leetcode/submissions/SumOfLeftLeaves.java)|Easy|
 |437|[路径总和 III](#)|[Java](./src/com/leetcode/submissions/PathSumIII.java)|Medium|
+|449|[序列化和反序列化二叉搜索树](#)|[Java](./src/com/leetcode/submissions/Codec.java)|Medium|
 
 
 ## 题目目录
