@@ -1,7 +1,6 @@
 package com.leetcode.submissions;
 
 import com.leetcode.extend.TreeNode;
-import com.sun.org.apache.regexp.internal.RE;
 
 /**
  * Create by ranzd on 2019-09-05 14:53
